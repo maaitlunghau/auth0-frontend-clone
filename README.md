@@ -120,7 +120,7 @@ The answer turned out to be *further than expected* — which made the project w
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Runtime — what ships
 
