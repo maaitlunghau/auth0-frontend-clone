@@ -1,0 +1,385 @@
+{
+ "sectors": [
+  {
+   "rect": {
+    "w": 450,
+    "h": 450,
+    "x": 75,
+    "y": 1269
+   },
+   "hostTag": "label",
+   "hostRect": {
+    "w": 450,
+    "h": 450,
+    "x": 75,
+    "y": 1269
+   },
+   "hostStyle": {
+    "position": "absolute",
+    "left": "-68.76px",
+    "top": "150.016px",
+    "right": "771.125px",
+    "bottom": "-32.5781px",
+    "transform": "matrix(1, 0, 0, 1, 0, 0)",
+    "zIndex": "auto",
+    "cursor": "default",
+    "width": "450px",
+    "height": "450px"
+   },
+   "svgStyle": {
+    "opacity": "1",
+    "filter": "none",
+    "transform": "none"
+   },
+   "markup": "<svg width=\"450\" height=\"450\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path opacity=\"0.2\" d=\"M76.74 418.26l211.2-.4c4.32 0 7.86-3.44 7.98-7.75.54-18.73 4.26-69.11 27.51-124.91 22.53-54.07 51.16-85.81 63.37-97.74 3.18-3.11 3.19-8.22.05-11.36L240.18 29.41c-3.17-3.17-8.32-3.12-11.42.11-18.85 19.63-79.73 87.02-113.54 171.63-33.77 84.52-44.02 179.68-46.46 208.44-.4 4.67 3.3 8.68 7.99 8.67h-.01z\" fill=\"#fff\"></path><path d=\"M297.3 389.57l-.8 9.3-.57 11.23s-.5 5.69-5.14 7.23v-10.75s-1.13-65.33 35.19-139.93c0 0 22.98-54.09 62.23-88.78 0 0 2.92 4.81-1.39 9.58-2.37 2.63-34.45 33.88-52.88 75.83 0 0-30.57 59.03-36.63 126.29h-.01z\" fill=\"url(#arc-outer_svg__paint0_linear_10014_30352)\"></path><defs><linearGradient id=\"arc-outer_svg__paint0_linear_10014_30352\" x1=\"285.14\" y1=\"421.09\" x2=\"392\" y2=\"127.48\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#fff\" stop-opacity=\"0.05\"></stop><stop offset=\"0.53\" stop-color=\"#fff\"></stop><stop offset=\"1\" stop-color=\"#fff\" stop-opacity=\"0.05\"></stop></linearGradient></defs></svg>"
+  },
+  {
+   "rect": {
+    "w": 450,
+    "h": 450,
+    "x": 305,
+    "y": 1053
+   },
+   "hostTag": "label",
+   "hostRect": {
+    "w": 450,
+    "h": 450,
+    "x": 305,
+    "y": 1053
+   },
+   "hostStyle": {
+    "position": "absolute",
+    "left": "161px",
+    "top": "-66.49px",
+    "right": "541.375px",
+    "bottom": "183.922px",
+    "transform": "matrix(1, 0, 0, 1, 0, 0)",
+    "zIndex": "auto",
+    "cursor": "default",
+    "width": "450px",
+    "height": "450px"
+   },
+   "svgStyle": {
+    "opacity": "1",
+    "filter": "none",
+    "transform": "none"
+   },
+   "markup": "<svg width=\"450\" height=\"450\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path opacity=\"0.2\" d=\"M18.16 233.97l149.63 149.06c3.06 3.05 7.99 3.12 11.13.16 13.63-12.87 51.88-45.86 107.78-68.87 55.9-23.01 96.85-24.5 113.92-24.3 4.44.05 8.07-3.55 8.07-8V74.58c0-4.48-3.67-8.09-8.15-8-27.21.55-117.91 5.15-201.64 41.08-83.65 35.89-158.19 95.92-180.26 114.53-3.59 3.02-3.8 8.47-.48 11.78z\" fill=\"#fff\"></path><path d=\"M186.38 376.38c-1.2 1.1-7.14 6.69-8.79 7.83-1.65 1.14-5.34 2.29-9.35-.77l9.07-7.97s41.69-40.51 103.98-66.81c47.4-20.01 102.97-27.99 127.4-26.32 0 0-.93 7.48-7.08 7.62-29.45.65-70.68 5.02-117.07 25.26 0 0-57.05 23.52-98.15 61.15l-.01.01z\" fill=\"url(#arc-inner_svg__paint0_linear_10014_30355)\"></path><defs><linearGradient id=\"arc-inner_svg__paint0_linear_10014_30355\" x1=\"162.027\" y1=\"383.16\" x2=\"447.727\" y2=\"249.941\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#fff\" stop-opacity=\"0.05\"></stop><stop offset=\"0.53\" stop-color=\"#fff\"></stop><stop offset=\"1\" stop-color=\"#fff\" stop-opacity=\"0.05\"></stop></linearGradient></defs></svg>"
+  },
+  {
+   "rect": {
+    "w": 450,
+    "h": 450,
+    "x": 685,
+    "y": 1053
+   },
+   "hostTag": "label",
+   "hostRect": {
+    "w": 450,
+    "h": 450,
+    "x": 685,
+    "y": 1053
+   },
+   "hostStyle": {
+    "position": "absolute",
+    "left": "541.379px",
+    "top": "-66.49px",
+    "right": "161px",
+    "bottom": "183.922px",
+    "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+    "zIndex": "auto",
+    "cursor": "default",
+    "width": "450px",
+    "height": "450px"
+   },
+   "svgStyle": {
+    "opacity": "1",
+    "filter": "none",
+    "transform": "none"
+   },
+   "markup": "<svg width=\"450\" height=\"450\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path opacity=\"0.2\" d=\"M18.16 233.97l149.63 149.06c3.06 3.05 7.99 3.12 11.13.16 13.63-12.87 51.88-45.86 107.78-68.87 55.9-23.01 96.85-24.5 113.92-24.3 4.44.05 8.07-3.55 8.07-8V74.58c0-4.48-3.67-8.09-8.15-8-27.21.55-117.91 5.15-201.64 41.08-83.65 35.89-158.19 95.92-180.26 114.53-3.59 3.02-3.8 8.47-.48 11.78z\" fill=\"#fff\"></path><path d=\"M186.38 376.38c-1.2 1.1-7.14 6.69-8.79 7.83-1.65 1.14-5.34 2.29-9.35-.77l9.07-7.97s41.69-40.51 103.98-66.81c47.4-20.01 102.97-27.99 127.4-26.32 0 0-.93 7.48-7.08 7.62-29.45.65-70.68 5.02-117.07 25.26 0 0-57.05 23.52-98.15 61.15l-.01.01z\" fill=\"url(#arc-inner_svg__paint0_linear_10014_30355)\"></path><defs><linearGradient id=\"arc-inner_svg__paint0_linear_10014_30355\" x1=\"162.027\" y1=\"383.16\" x2=\"447.727\" y2=\"249.941\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#fff\" stop-opacity=\"0.05\"></stop><stop offset=\"0.53\" stop-color=\"#fff\"></stop><stop offset=\"1\" stop-color=\"#fff\" stop-opacity=\"0.05\"></stop></linearGradient></defs></svg>"
+  },
+  {
+   "rect": {
+    "w": 450,
+    "h": 450,
+    "x": 915,
+    "y": 1269
+   },
+   "hostTag": "label",
+   "hostRect": {
+    "w": 450,
+    "h": 450,
+    "x": 915,
+    "y": 1269
+   },
+   "hostStyle": {
+    "position": "absolute",
+    "left": "771.139px",
+    "top": "150.016px",
+    "right": "-68.75px",
+    "bottom": "-32.5781px",
+    "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+    "zIndex": "auto",
+    "cursor": "default",
+    "width": "450px",
+    "height": "450px"
+   },
+   "svgStyle": {
+    "opacity": "1",
+    "filter": "none",
+    "transform": "none"
+   },
+   "markup": "<svg width=\"450\" height=\"450\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path opacity=\"0.2\" d=\"M76.74 418.26l211.2-.4c4.32 0 7.86-3.44 7.98-7.75.54-18.73 4.26-69.11 27.51-124.91 22.53-54.07 51.16-85.81 63.37-97.74 3.18-3.11 3.19-8.22.05-11.36L240.18 29.41c-3.17-3.17-8.32-3.12-11.42.11-18.85 19.63-79.73 87.02-113.54 171.63-33.77 84.52-44.02 179.68-46.46 208.44-.4 4.67 3.3 8.68 7.99 8.67h-.01z\" fill=\"#fff\"></path><path d=\"M297.3 389.57l-.8 9.3-.57 11.23s-.5 5.69-5.14 7.23v-10.75s-1.13-65.33 35.19-139.93c0 0 22.98-54.09 62.23-88.78 0 0 2.92 4.81-1.39 9.58-2.37 2.63-34.45 33.88-52.88 75.83 0 0-30.57 59.03-36.63 126.29h-.01z\" fill=\"url(#arc-outer_svg__paint0_linear_10014_30352)\"></path><defs><linearGradient id=\"arc-outer_svg__paint0_linear_10014_30352\" x1=\"285.14\" y1=\"421.09\" x2=\"392\" y2=\"127.48\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#fff\" stop-opacity=\"0.05\"></stop><stop offset=\"0.53\" stop-color=\"#fff\"></stop><stop offset=\"1\" stop-color=\"#fff\" stop-opacity=\"0.05\"></stop></linearGradient></defs></svg>"
+  }
+ ],
+ "mainBg": {
+  "backgroundImage": "url(\"https://cdn.auth0.com/website/homepage/banner-gradient-lg.png\")",
+  "backgroundSize": "contain",
+  "backgroundPosition": "50% 100%",
+  "backgroundRepeat": "no-repeat",
+  "backgroundColor": "rgba(0, 0, 0, 0)",
+  "gap": "128px"
+ },
+ "secBg": {
+  "backgroundImage": "url(\"https://cdn.auth0.com/website/homepage/user-journey/bg-desktop.png\")",
+  "backgroundSize": "cover",
+  "backgroundPosition": "50% 100%",
+  "backgroundRepeat": "no-repeat",
+  "padding": "0px 0px 32px",
+  "minHeight": "0px"
+ },
+ "stage": {
+  "w": 450,
+  "h": 450,
+  "x": 75,
+  "y": 1269
+ },
+ "kids": [
+  {
+   "tag": "label",
+   "rect": {
+    "w": 450,
+    "h": 450,
+    "x": 75,
+    "y": 1269
+   },
+   "style": {
+    "position": "absolute",
+    "left": "-68.76px",
+    "top": "150.016px",
+    "right": "771.125px",
+    "bottom": "-32.5781px",
+    "transform": "matrix(1, 0, 0, 1, 0, 0)",
+    "width": "450px",
+    "height": "450px",
+    "zIndex": "auto",
+    "display": "block",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "textAlign": "start"
+   },
+   "text": ""
+  },
+  {
+   "tag": "label",
+   "rect": {
+    "w": 450,
+    "h": 450,
+    "x": 305,
+    "y": 1053
+   },
+   "style": {
+    "position": "absolute",
+    "left": "161px",
+    "top": "-66.49px",
+    "right": "541.375px",
+    "bottom": "183.922px",
+    "transform": "matrix(1, 0, 0, 1, 0, 0)",
+    "width": "450px",
+    "height": "450px",
+    "zIndex": "auto",
+    "display": "block",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "textAlign": "start"
+   },
+   "text": ""
+  },
+  {
+   "tag": "label",
+   "rect": {
+    "w": 450,
+    "h": 450,
+    "x": 685,
+    "y": 1053
+   },
+   "style": {
+    "position": "absolute",
+    "left": "541.379px",
+    "top": "-66.49px",
+    "right": "161px",
+    "bottom": "183.922px",
+    "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+    "width": "450px",
+    "height": "450px",
+    "zIndex": "auto",
+    "display": "block",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "textAlign": "start"
+   },
+   "text": ""
+  },
+  {
+   "tag": "label",
+   "rect": {
+    "w": 450,
+    "h": 450,
+    "x": 915,
+    "y": 1269
+   },
+   "style": {
+    "position": "absolute",
+    "left": "771.139px",
+    "top": "150.016px",
+    "right": "-68.75px",
+    "bottom": "-32.5781px",
+    "transform": "matrix(-1, 0, 0, 1, 0, 0)",
+    "width": "450px",
+    "height": "450px",
+    "zIndex": "auto",
+    "display": "block",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "textAlign": "start"
+   },
+   "text": ""
+  },
+  {
+   "tag": "label",
+   "rect": {
+    "w": 136,
+    "h": 94,
+    "x": 214,
+    "y": 1490
+   },
+   "style": {
+    "position": "absolute",
+    "left": "70px",
+    "top": "371px",
+    "right": "946.375px",
+    "bottom": "102.438px",
+    "transform": "none",
+    "width": "136px",
+    "height": "94px",
+    "zIndex": "auto",
+    "display": "flex",
+    "alignItems": "center",
+    "justifyContent": "center",
+    "textAlign": "start"
+   },
+   "text": "SIGN UP"
+  },
+  {
+   "tag": "label",
+   "rect": {
+    "w": 162,
+    "h": 88,
+    "x": 464,
+    "y": 1229
+   },
+   "style": {
+    "position": "absolute",
+    "left": "320px",
+    "top": "110px",
+    "right": "670.375px",
+    "bottom": "369.438px",
+    "transform": "none",
+    "width": "162px",
+    "height": "88px",
+    "zIndex": "auto",
+    "display": "flex",
+    "alignItems": "center",
+    "justifyContent": "center",
+    "textAlign": "start"
+   },
+   "text": "LOGIN"
+  },
+  {
+   "tag": "label",
+   "rect": {
+    "w": 176,
+    "h": 88,
+    "x": 814,
+    "y": 1229
+   },
+   "style": {
+    "position": "absolute",
+    "left": "670px",
+    "top": "110px",
+    "right": "306.375px",
+    "bottom": "369.438px",
+    "transform": "none",
+    "width": "176px",
+    "height": "88px",
+    "zIndex": "auto",
+    "display": "flex",
+    "alignItems": "center",
+    "justifyContent": "center",
+    "textAlign": "start"
+   },
+   "text": "CHECKOUT"
+  },
+  {
+   "tag": "label",
+   "rect": {
+    "w": 190,
+    "h": 125,
+    "x": 1064,
+    "y": 1474
+   },
+   "style": {
+    "position": "absolute",
+    "left": "920px",
+    "top": "355px",
+    "right": "42.375px",
+    "bottom": "87.4375px",
+    "transform": "none",
+    "width": "190px",
+    "height": "125px",
+    "zIndex": "auto",
+    "display": "flex",
+    "alignItems": "center",
+    "justifyContent": "center",
+    "textAlign": "start"
+   },
+   "text": "AGENTIC EXPERIENCE"
+  },
+  {
+   "tag": "div",
+   "rect": {
+    "w": 378,
+    "h": 203,
+    "x": 531,
+    "y": 1449
+   },
+   "style": {
+    "position": "absolute",
+    "left": "576.188px",
+    "top": "330px",
+    "right": "198.188px",
+    "bottom": "34.4375px",
+    "transform": "matrix(1, 0, 0, 1, -189, 0)",
+    "width": "378px",
+    "height": "203px",
+    "zIndex": "auto",
+    "display": "block",
+    "alignItems": "normal",
+    "justifyContent": "normal",
+    "textAlign": "start"
+   },
+   "text": "Convert Convert more customers through secure and easy sign "
+  }
+ ]
+}

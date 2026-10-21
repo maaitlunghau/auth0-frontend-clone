@@ -1,0 +1,166 @@
+{
+ "controls": [
+  {
+   "tag": "label",
+   "text": "B2C",
+   "cls": "sc-2ba1bd13-3 ddSfFP uj-toggle-option",
+   "rect": "80x40 @x636 y1042"
+  },
+  {
+   "tag": "label",
+   "text": "B2B",
+   "cls": "sc-2ba1bd13-3 ddSfFP uj-toggle-option",
+   "rect": "80x40 @x724 y1042"
+  }
+ ],
+ "modes": [
+  {
+   "mode": "B2C",
+   "states": [
+    {
+     "text": "Identity for the entire customer lifecycle B2C B2B SIGN UP LOGIN CHECKOUT AGENTIC EXPERIENCE Convert Convert more customers through secure and easy sign up. Explore B2C Solutions",
+     "imgs": [
+      "B2C-SignUp.png",
+      "B2C-Login.png",
+      "B2C-Checkout.png",
+      "B2C-AIAgent.png"
+     ],
+     "sample": [
+      "B2CB2B",
+      "Sign upEvaluationLoginOnboardingCheckoutExpansionAgentic ExperienceAgentic ReadinessConvertConvert more customers through secure and easy sign up.Explore B2C SolutionsProtectProtect revenue by stopping fraud without adding unnecessary friction.Explore B2C SolutionsPersonalizeBuild lifetime value and loyalty with personalized experiences across every channel.Explore B2C SolutionsGrowGrow the relationship by carrying trusted customer context into AI-assisted experiences.Explore B2C SolutionsWinClose deals faster with enterprise grade identity including enterprise federation, compliance and access controls.Explore B2B SaaSAccelerateAccelerate time-to-value by removing onboarding friction so customers go-live faster.Explore B2B SaaSScaleScale adoption and expansion easily by letting customers self-manage their organizations, user roles, and access.Explore B2B SaaSEvolveAdapt to market demands by adding secure agentic experiences to your platform.Explore B2B SaaS",
+      "Sign upEvaluationLoginOnboardingCheckoutExpansionAgentic ExperienceAgentic ReadinessConvertConvert more customers through secure and easy sign up.Explore B2C SolutionsProtectProtect revenue by stopping fraud without adding unnecessary friction.Explore B2C SolutionsPersonalizeBuild lifetime value and loyalty with personalized experiences across every channel.Explore B2C SolutionsGrowGrow the relationship by carrying trusted customer context into AI-assisted experiences.Explore B2C SolutionsWinClose deals faster with enterprise grade identity including enterprise federation, compliance and access controls.Explore B2B SaaSAccelerateAccelerate time-to-value by removing onboarding friction so customers go-live faster.Explore B2B SaaSScaleScale adoption and expansion easily by letting customers self-manage their organizations, user roles, and access.Explore B2B SaaSEvolveAdapt to market demands by adding secure agentic experiences to your platform.Explore B2B SaaS",
+      "Sign up"
+     ]
+    },
+    {
+     "text": "Identity for the entire customer lifecycle B2C B2B SIGN UP LOGIN CHECKOUT AGENTIC EXPERIENCE Protect Protect revenue by stopping fraud without adding unnecessary friction. Explore B2C Solutions",
+     "imgs": [
+      "B2C-SignUp.png",
+      "B2C-Login.png",
+      "B2C-Checkout.png",
+      "B2C-AIAgent.png"
+     ],
+     "sample": [
+      "B2CB2B",
+      "Sign upEvaluationLoginOnboardingCheckoutExpansionAgentic ExperienceAgentic ReadinessConvertConvert more customers through secure and easy sign up.Explore B2C SolutionsProtectProtect revenue by stopping fraud without adding unnecessary friction.Explore B2C SolutionsPersonalizeBuild lifetime value and loyalty with personalized experiences across every channel.Explore B2C SolutionsGrowGrow the relationship by carrying trusted customer context into AI-assisted experiences.Explore B2C SolutionsWinClose deals faster with enterprise grade identity including enterprise federation, compliance and access controls.Explore B2B SaaSAccelerateAccelerate time-to-value by removing onboarding friction so customers go-live faster.Explore B2B SaaSScaleScale adoption and expansion easily by letting customers self-manage their organizations, user roles, and access.Explore B2B SaaSEvolveAdapt to market demands by adding secure agentic experiences to your platform.Explore B2B SaaS",
+      "Sign upEvaluationLoginOnboardingCheckoutExpansionAgentic ExperienceAgentic ReadinessConvertConvert more customers through secure and easy sign up.Explore B2C SolutionsProtectProtect revenue by stopping fraud without adding unnecessary friction.Explore B2C SolutionsPersonalizeBuild lifetime value and loyalty with personalized experiences across every channel.Explore B2C SolutionsGrowGrow the relationship by carrying trusted customer context into AI-assisted experiences.Explore B2C SolutionsWinClose deals faster with enterprise grade identity including enterprise federation, compliance and access controls.Explore B2B SaaSAccelerateAccelerate time-to-value by removing onboarding friction so customers go-live faster.Explore B2B SaaSScaleScale adoption and expansion easily by letting customers self-manage their organizations, user roles, and access.Explore B2B SaaSEvolveAdapt to market demands by adding secure agentic experiences to your platform.Explore B2B SaaS",
+      "Sign up"
+     ]
+    },
+    {
+     "text": "Identity for the entire customer lifecycle B2C B2B SIGN UP LOGIN CHECKOUT AGENTIC EXPERIENCE Personalize Build lifetime value and loyalty with personalized experiences across every channel. Explore B2C Solutions",
+     "imgs": [
+      "B2C-SignUp.png",
+      "B2C-Login.png",
+      "B2C-Checkout.png",
+      "B2C-AIAgent.png"
+     ],
+     "sample": [
+      "B2CB2B",
+      "Sign upEvaluationLoginOnboardingCheckoutExpansionAgentic ExperienceAgentic ReadinessConvertConvert more customers through secure and easy sign up.Explore B2C SolutionsProtectProtect revenue by stopping fraud without adding unnecessary friction.Explore B2C SolutionsPersonalizeBuild lifetime value and loyalty with personalized experiences across every channel.Explore B2C SolutionsGrowGrow the relationship by carrying trusted customer context into AI-assisted experiences.Explore B2C SolutionsWinClose deals faster with enterprise grade identity including enterprise federation, compliance and access controls.Explore B2B SaaSAccelerateAccelerate time-to-value by removing onboarding friction so customers go-live faster.Explore B2B SaaSScaleScale adoption and expansion easily by letting customers self-manage their organizations, user roles, and access.Explore B2B SaaSEvolveAdapt to market demands by adding secure agentic experiences to your platform.Explore B2B SaaS",
+      "Sign upEvaluationLoginOnboardingCheckoutExpansionAgentic ExperienceAgentic ReadinessConvertConvert more customers through secure and easy sign up.Explore B2C SolutionsProtectProtect revenue by stopping fraud without adding unnecessary friction.Explore B2C SolutionsPersonalizeBuild lifetime value and loyalty with personalized experiences across every channel.Explore B2C SolutionsGrowGrow the relationship by carrying trusted customer context into AI-assisted experiences.Explore B2C SolutionsWinClose deals faster with enterprise grade identity including enterprise federation, compliance and access controls.Explore B2B SaaSAccelerateAccelerate time-to-value by removing onboarding friction so customers go-live faster.Explore B2B SaaSScaleScale adoption and expansion easily by letting customers self-manage their organizations, user roles, and access.Explore B2B SaaSEvolveAdapt to market demands by adding secure agentic experiences to your platform.Explore B2B SaaS",
+      "Sign up"
+     ]
+    },
+    {
+     "text": "Identity for the entire customer lifecycle B2C B2B SIGN UP LOGIN CHECKOUT AGENTIC EXPERIENCE Grow Grow the relationship by carrying trusted customer context into AI-assisted experiences. Explore B2C Solutions",
+     "imgs": [
+      "B2C-SignUp.png",
+      "B2C-Login.png",
+      "B2C-Checkout.png",
+      "B2C-AIAgent.png"
+     ],
+     "sample": [
+      "B2CB2B",
+      "Sign upEvaluationLoginOnboardingCheckoutExpansionAgentic ExperienceAgentic ReadinessConvertConvert more customers through secure and easy sign up.Explore B2C SolutionsProtectProtect revenue by stopping fraud without adding unnecessary friction.Explore B2C SolutionsPersonalizeBuild lifetime value and loyalty with personalized experiences across every channel.Explore B2C SolutionsGrowGrow the relationship by carrying trusted customer context into AI-assisted experiences.Explore B2C SolutionsWinClose deals faster with enterprise grade identity including enterprise federation, compliance and access controls.Explore B2B SaaSAccelerateAccelerate time-to-value by removing onboarding friction so customers go-live faster.Explore B2B SaaSScaleScale adoption and expansion easily by letting customers self-manage their organizations, user roles, and access.Explore B2B SaaSEvolveAdapt to market demands by adding secure agentic experiences to your platform.Explore B2B SaaS",
+      "Sign upEvaluationLoginOnboardingCheckoutExpansionAgentic ExperienceAgentic ReadinessConvertConvert more customers through secure and easy sign up.Explore B2C SolutionsProtectProtect revenue by stopping fraud without adding unnecessary friction.Explore B2C SolutionsPersonalizeBuild lifetime value and loyalty with personalized experiences across every channel.Explore B2C SolutionsGrowGrow the relationship by carrying trusted customer context into AI-assisted experiences.Explore B2C SolutionsWinClose deals faster with enterprise grade identity including enterprise federation, compliance and access controls.Explore B2B SaaSAccelerateAccelerate time-to-value by removing onboarding friction so customers go-live faster.Explore B2B SaaSScaleScale adoption and expansion easily by letting customers self-manage their organizations, user roles, and access.Explore B2B SaaSEvolveAdapt to market demands by adding secure agentic experiences to your platform.Explore B2B SaaS",
+      "Sign up"
+     ]
+    }
+   ]
+  },
+  {
+   "mode": "B2B",
+   "states": [
+    {
+     "text": "Identity for the entire customer lifecycle B2C B2B EVALUATION ONBOARDING EXPANSION AGENTIC READINESS Win Close deals faster with enterprise grade identity including enterprise federation, compliance and access controls. Explore B2B SaaS",
+     "imgs": [
+      "B2B-Evaluation.png",
+      "B2B-Onboarding.png",
+      "B2B-Expansion.png",
+      "B2B-AgenticReadiness.png"
+     ],
+     "sample": [
+      "B2CB2B",
+      "Sign upEvaluationLoginOnboardingCheckoutExpansionAgentic ExperienceAgentic ReadinessConvertConvert more customers through secure and easy sign up.Explore B2C SolutionsProtectProtect revenue by stopping fraud without adding unnecessary friction.Explore B2C SolutionsPersonalizeBuild lifetime value and loyalty with personalized experiences across every channel.Explore B2C SolutionsGrowGrow the relationship by carrying trusted customer context into AI-assisted experiences.Explore B2C SolutionsWinClose deals faster with enterprise grade identity including enterprise federation, compliance and access controls.Explore B2B SaaSAccelerateAccelerate time-to-value by removing onboarding friction so customers go-live faster.Explore B2B SaaSScaleScale adoption and expansion easily by letting customers self-manage their organizations, user roles, and access.Explore B2B SaaSEvolveAdapt to market demands by adding secure agentic experiences to your platform.Explore B2B SaaS",
+      "Sign upEvaluationLoginOnboardingCheckoutExpansionAgentic ExperienceAgentic ReadinessConvertConvert more customers through secure and easy sign up.Explore B2C SolutionsProtectProtect revenue by stopping fraud without adding unnecessary friction.Explore B2C SolutionsPersonalizeBuild lifetime value and loyalty with personalized experiences across every channel.Explore B2C SolutionsGrowGrow the relationship by carrying trusted customer context into AI-assisted experiences.Explore B2C SolutionsWinClose deals faster with enterprise grade identity including enterprise federation, compliance and access controls.Explore B2B SaaSAccelerateAccelerate time-to-value by removing onboarding friction so customers go-live faster.Explore B2B SaaSScaleScale adoption and expansion easily by letting customers self-manage their organizations, user roles, and access.Explore B2B SaaSEvolveAdapt to market demands by adding secure agentic experiences to your platform.Explore B2B SaaS",
+      "Sign up"
+     ]
+    },
+    {
+     "text": "Identity for the entire customer lifecycle B2C B2B EVALUATION ONBOARDING EXPANSION AGENTIC READINESS Accelerate Accelerate time-to-value by removing onboarding friction so customers go-live faster. Explore B2B SaaS",
+     "imgs": [
+      "B2B-Evaluation.png",
+      "B2B-Onboarding.png",
+      "B2B-Expansion.png",
+      "B2B-AgenticReadiness.png"
+     ],
+     "sample": [
+      "B2CB2B",
+      "Sign upEvaluationLoginOnboardingCheckoutExpansionAgentic ExperienceAgentic ReadinessConvertConvert more customers through secure and easy sign up.Explore B2C SolutionsProtectProtect revenue by stopping fraud without adding unnecessary friction.Explore B2C SolutionsPersonalizeBuild lifetime value and loyalty with personalized experiences across every channel.Explore B2C SolutionsGrowGrow the relationship by carrying trusted customer context into AI-assisted experiences.Explore B2C SolutionsWinClose deals faster with enterprise grade identity including enterprise federation, compliance and access controls.Explore B2B SaaSAccelerateAccelerate time-to-value by removing onboarding friction so customers go-live faster.Explore B2B SaaSScaleScale adoption and expansion easily by letting customers self-manage their organizations, user roles, and access.Explore B2B SaaSEvolveAdapt to market demands by adding secure agentic experiences to your platform.Explore B2B SaaS",
+      "Sign upEvaluationLoginOnboardingCheckoutExpansionAgentic ExperienceAgentic ReadinessConvertConvert more customers through secure and easy sign up.Explore B2C SolutionsProtectProtect revenue by stopping fraud without adding unnecessary friction.Explore B2C SolutionsPersonalizeBuild lifetime value and loyalty with personalized experiences across every channel.Explore B2C SolutionsGrowGrow the relationship by carrying trusted customer context into AI-assisted experiences.Explore B2C SolutionsWinClose deals faster with enterprise grade identity including enterprise federation, compliance and access controls.Explore B2B SaaSAccelerateAccelerate time-to-value by removing onboarding friction so customers go-live faster.Explore B2B SaaSScaleScale adoption and expansion easily by letting customers self-manage their organizations, user roles, and access.Explore B2B SaaSEvolveAdapt to market demands by adding secure agentic experiences to your platform.Explore B2B SaaS",
+      "Sign up"
+     ]
+    },
+    {
+     "text": "Identity for the entire customer lifecycle B2C B2B EVALUATION ONBOARDING EXPANSION AGENTIC READINESS Scale Scale adoption and expansion easily by letting customers self-manage their organizations, user roles, and access. Explore B2B SaaS",
+     "imgs": [
+      "B2B-Evaluation.png",
+      "B2B-Onboarding.png",
+      "B2B-Expansion.png",
+      "B2B-AgenticReadiness.png"
+     ],
+     "sample": [
+      "B2CB2B",
+      "Sign upEvaluationLoginOnboardingCheckoutExpansionAgentic ExperienceAgentic ReadinessConvertConvert more customers through secure and easy sign up.Explore B2C SolutionsProtectProtect revenue by stopping fraud without adding unnecessary friction.Explore B2C SolutionsPersonalizeBuild lifetime value and loyalty with personalized experiences across every channel.Explore B2C SolutionsGrowGrow the relationship by carrying trusted customer context into AI-assisted experiences.Explore B2C SolutionsWinClose deals faster with enterprise grade identity including enterprise federation, compliance and access controls.Explore B2B SaaSAccelerateAccelerate time-to-value by removing onboarding friction so customers go-live faster.Explore B2B SaaSScaleScale adoption and expansion easily by letting customers self-manage their organizations, user roles, and access.Explore B2B SaaSEvolveAdapt to market demands by adding secure agentic experiences to your platform.Explore B2B SaaS",
+      "Sign upEvaluationLoginOnboardingCheckoutExpansionAgentic ExperienceAgentic ReadinessConvertConvert more customers through secure and easy sign up.Explore B2C SolutionsProtectProtect revenue by stopping fraud without adding unnecessary friction.Explore B2C SolutionsPersonalizeBuild lifetime value and loyalty with personalized experiences across every channel.Explore B2C SolutionsGrowGrow the relationship by carrying trusted customer context into AI-assisted experiences.Explore B2C SolutionsWinClose deals faster with enterprise grade identity including enterprise federation, compliance and access controls.Explore B2B SaaSAccelerateAccelerate time-to-value by removing onboarding friction so customers go-live faster.Explore B2B SaaSScaleScale adoption and expansion easily by letting customers self-manage their organizations, user roles, and access.Explore B2B SaaSEvolveAdapt to market demands by adding secure agentic experiences to your platform.Explore B2B SaaS",
+      "Sign up"
+     ]
+    },
+    {
+     "text": "Identity for the entire customer lifecycle B2C B2B EVALUATION ONBOARDING EXPANSION AGENTIC READINESS Evolve Adapt to market demands by adding secure agentic experiences to your platform. Explore B2B SaaS",
+     "imgs": [
+      "B2B-Evaluation.png",
+      "B2B-Onboarding.png",
+      "B2B-Expansion.png",
+      "B2B-AgenticReadiness.png"
+     ],
+     "sample": [
+      "B2CB2B",
+      "Sign upEvaluationLoginOnboardingCheckoutExpansionAgentic ExperienceAgentic ReadinessConvertConvert more customers through secure and easy sign up.Explore B2C SolutionsProtectProtect revenue by stopping fraud without adding unnecessary friction.Explore B2C SolutionsPersonalizeBuild lifetime value and loyalty with personalized experiences across every channel.Explore B2C SolutionsGrowGrow the relationship by carrying trusted customer context into AI-assisted experiences.Explore B2C SolutionsWinClose deals faster with enterprise grade identity including enterprise federation, compliance and access controls.Explore B2B SaaSAccelerateAccelerate time-to-value by removing onboarding friction so customers go-live faster.Explore B2B SaaSScaleScale adoption and expansion easily by letting customers self-manage their organizations, user roles, and access.Explore B2B SaaSEvolveAdapt to market demands by adding secure agentic experiences to your platform.Explore B2B SaaS",
+      "Sign upEvaluationLoginOnboardingCheckoutExpansionAgentic ExperienceAgentic ReadinessConvertConvert more customers through secure and easy sign up.Explore B2C SolutionsProtectProtect revenue by stopping fraud without adding unnecessary friction.Explore B2C SolutionsPersonalizeBuild lifetime value and loyalty with personalized experiences across every channel.Explore B2C SolutionsGrowGrow the relationship by carrying trusted customer context into AI-assisted experiences.Explore B2C SolutionsWinClose deals faster with enterprise grade identity including enterprise federation, compliance and access controls.Explore B2B SaaSAccelerateAccelerate time-to-value by removing onboarding friction so customers go-live faster.Explore B2B SaaSScaleScale adoption and expansion easily by letting customers self-manage their organizations, user roles, and access.Explore B2B SaaSEvolveAdapt to market demands by adding secure agentic experiences to your platform.Explore B2B SaaS",
+      "Sign up"
+     ]
+    }
+   ]
+  }
+ ],
+ "resourceImages": [
+  "https://images.ctfassets.net/2ntc334xpx65/4HwhZN8PI9aTKt5CNepGUA/53544a63b50c92ca890173f339ae5f43/Auth0_Template-NoImage_01__1_.png?w=600&q=100",
+  "https://images.ctfassets.net/2ntc334xpx65/7pkuJuOa1YU9VmNniQfkg0/921d63ad046d86f0f8417226966cd049/Auth0_Template-NoImage_02__1_.png?w=600&q=100",
+  "https://images.ctfassets.net/2ntc334xpx65/5YLxbm0MeninRBBbMAtC5T/3a84aedf0e59931789515be9481718cb/Auth0_Template-NoImage_01__2_.png?w=600&q=100",
+  "https://images.ctfassets.net/2ntc334xpx65/R2eHaQjqo6R3nbZyqTTEb/7525a50d1a99fd424843f4632b04cfbf/Auth0_Template-NoImage_02__3_.png?w=600&q=100",
+  "https://images.ctfassets.net/2ntc334xpx65/5eSIFUfSfWU75kgxBAG680/9852cc260a5339139e663c9beb87d74e/Auth0_Template-NoImage_01__3_.png?w=600&q=100",
+  "https://images.ctfassets.net/2ntc334xpx65/2Bxuyc5fEIFrhZVXmgFOWd/64bbb46a15178877fccb27e0cfb05003/Auth0_Template-NoImage_02__4_.png?w=600&q=100",
+  "https://images.ctfassets.net/2ntc334xpx65/4Swy23sb8YgfWCjPOGZdWY/309d9e9c1058132b9672b2571ab3a89b/Auth0_Template-NoImage_01__1_.png?w=600&q=100",
+  "https://images.ctfassets.net/2ntc334xpx65/5vlLEwUQl0VUb5odc9KnnP/2c92bfc431ae7730cb286a5f4633259a/Auth0_Template-NoImage_02__1_.png?w=600&q=100",
+  "https://images.ctfassets.net/2ntc334xpx65/67eguTJe7D7wJ55Vgi6DW3/c67674df380663d1d85af9846900e219/Auth0_Template-NoImage_01.png?w=600&q=100",
+  "https://images.ctfassets.net/2ntc334xpx65/5NhZCfTAftLx7eGrgucuUl/a079d211dfd8e432bac4fe765f2207ca/Auth0_Template-NoImage_02.png?w=600&q=100",
+  "https://images.ctfassets.net/2ntc334xpx65/2iBqAB2sguU8TkuQNGrGfZ/40e554da6a66472cab6e3807fd31f0a6/Auth0_Template-NoImage_01__1_.png?w=600&q=100",
+  "https://images.ctfassets.net/2ntc334xpx65/1oJDCHxnwlThw2zRQt6NbR/afbbd4d3913d2a92af773e349b5ed6ae/Auth0_Template-NoImage_02__1_.png?w=600&q=100",
+  "https://images.ctfassets.net/2ntc334xpx65/6HBWs47gNqDRnI5Gwe5G0l/17fb052f4713800f148f19a3873488ce/Auth0_Template-NoImage_01__2_.png?w=600&q=100",
+  "https://images.ctfassets.net/2ntc334xpx65/626osCksaUNne0XBQmKC2j/ffb857a66f12a0360c0f5b5fc6f09792/Auth0_Template-NoImage_02__2_.png?w=600&q=100",
+  "https://images.ctfassets.net/2ntc334xpx65/1HVbm2dcLEOKkEn0HUdJQF/f953de9a08e8b455da92064a3d6e0bf3/Auth0_Template-NoImage_01__3_.png?w=600&q=100",
+  "https://images.ctfassets.net/2ntc334xpx65/hfgFv45W8LMjJacVCkRc8/2ca7291f26e36a6cc412ae2b91b46f36/Auth0_Template-NoImage_02__3_.png?w=600&q=100"
+ ]
+}

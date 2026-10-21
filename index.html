@@ -1,0 +1,837 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Secure AI Agent &amp; User Authentication | Auth0</title>
+<meta name="description" content="Secure users, AI agents, and more with Auth0, an easy-to-implement, scalable, and adaptable authentication and authorization platform.">
+<link rel="icon" href="assets/images/cdn.auth0.com/auth0-favicon-63c5e83af4.svg">
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<a class="visually-hidden" href="#main">Skip to content</a>
+
+<header class="site-header" data-od-id="site-header" data-nav-open="false">
+  <div class="ticker" data-od-id="announcement-bar">
+    <div class="ticker__inner">
+      <div class="ticker__msg" data-od-id="announcement-message">
+        <p data-ticker-text>Streamcast Ep 9: Agentic commerce—Don’t let agents steal your customers</p>
+        <a class="ticker__cta" href="#" data-ticker-cta>Register now <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="ticker__right">
+        <a class="ticker-login" href="#">Login</a>
+        <span class="lang">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 12H22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C14.5013 4.73835 15.9228 8.29203 16 12C15.9228 15.708 14.5013 19.2616 12 22C9.49872 19.2616 8.07725 15.708 8 12C8.07725 8.29203 9.49872 4.73835 12 2V2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          <label class="visually-hidden" for="lang-top">Language</label>
+          <select id="lang-top">
+            <option>Deutsch</option>
+            <option selected>English</option>
+            <option>Français</option>
+            <option>Español</option>
+            <option>Português</option>
+            <option>日本語</option>
+          </select>
+          <span class="lang__chevron" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar" aria-label="Primary">
+    <div class="navbar__inner shell">
+      <a class="navbar__logo" href="#" aria-label="Auth0 home" data-od-id="nav-logo">
+        <img src="assets/images/auth0-wordmark.svg" width="106" height="40" alt="Auth0">
+      </a>
+
+      <button class="navtoggle" type="button" aria-expanded="false" aria-controls="nav-menu" data-navtoggle data-od-id="nav-toggle">
+        <span class="visually-hidden">Menu</span>
+        <svg width="20" height="14" viewBox="0 0 20 14" fill="none" aria-hidden="true"><path d="M0 1h20M0 7h20M0 13h20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </button>
+
+      <ul class="navbar__menu" id="nav-menu">
+        <li class="navitem" data-navitem data-open="false" data-od-id="nav-build">
+          <button class="navitem__label" type="button" aria-expanded="false">Build <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <div class="megamenu">
+            <div class="megamenu__grid shell" style="--cols:4">
+              <div class="megacol">
+                <p class="megacol__title">Documentation</p>
+                <ul>
+                  <li><a class="megalink" href="#">AI Identity Docs</a></li>
+                  <li><a class="megalink" href="#">APIs</a></li>
+                  <li><a class="megalink" href="#">SDKs</a></li>
+                  <li><a class="megalink" href="#">Events Catalog</a></li>
+                  <li><a class="megalink" href="#">Changelog</a></li>
+                  <li><a class="megalink" href="#">Code Samples <span class="ext" aria-hidden="true">↗</span></a></li>
+                  <li><a class="megalink" href="#">Guides <span class="ext" aria-hidden="true">↗</span></a></li>
+                </ul>
+                <a class="megacta" href="#">Explore Auth0 Docs <span aria-hidden="true">→</span></a>
+              </div>
+              <div class="megacol megacol--icons">
+                <p class="megacol__title">Quickstarts</p>
+                <ul>
+                  <li><a class="megalink" href="#"><img src="assets/images/auth0.com/react.fc0387fd-062d7bcb43.png" alt="" width="32" height="32"> React</a></li>
+                  <li><a class="megalink" href="#"><img src="assets/images/auth0.com/nextjs.96ac44aa-2bd98e99a8.png" alt="" width="32" height="32"> Next.js</a></li>
+                  <li><a class="megalink" href="#"><img src="assets/images/auth0.com/angular.26e2a9aa-9f942aafd6.png" alt="" width="32" height="32"> Angular</a></li>
+                  <li><a class="megalink" href="#"><img src="assets/images/auth0.com/vue.b645b0be-f4797054a2.png" alt="" width="32" height="32"> Vue.js</a></li>
+                  <li><a class="megalink" href="#"><img src="assets/images/auth0.com/react-native.f69cfe0c-3e3ce0785b.png" alt="" width="32" height="32"> React Native</a></li>
+                  <li><a class="megalink" href="#"><img src="assets/images/auth0.com/swift.864d5dd8-1b4ceecf47.png" alt="" width="32" height="32"> iOS / Swift</a></li>
+                  <li><span class="megalink">Build in 30+ of your favorite languages &amp; frameworks</span></li>
+                </ul>
+                <a class="megacta" href="#">View all Quickstarts <span aria-hidden="true">→</span></a>
+              </div>
+              <div class="megacol megacol--icons">
+                <p class="megacol__title">Developer Tools</p>
+                <ul>
+                  <li><a class="megalink" href="#"><img src="assets/images/auth0.com/jwt.a6f0ac2d-7f0e41a28e.png" alt="" width="32" height="32"> JWT Decoder <span class="ext" aria-hidden="true">↗</span></a></li>
+                  <li><a class="megalink" href="#"><img src="assets/images/auth0.com/webauthn.8573a203-fc15ca2806.png" alt="" width="32" height="32"> Webauthn Demo <span class="ext" aria-hidden="true">↗</span></a></li>
+                  <li><a class="megalink" href="#"><img src="assets/images/auth0.com/oidc.523cf6d9-7893631ab6.png" alt="" width="32" height="32"> OIDC Playground <span class="ext" aria-hidden="true">↗</span></a></li>
+                  <li><a class="megalink" href="#"><img src="assets/images/auth0.com/saml.5323dd95-743435c308.png" alt="" width="32" height="32"> SAML Tool <span class="ext" aria-hidden="true">↗</span></a></li>
+                  <li><a class="megalink" href="#"><img src="assets/images/auth0.com/passkey.f356236c-957deb120f.png" alt="" width="32" height="32"> Passkeys Playground <span class="ext" aria-hidden="true">↗</span></a></li>
+                  <li><a class="megalink" href="#"><img src="assets/images/auth0.com/auth0-deploy.bdaab92b-7d21aad533.png" alt="" width="32" height="32"> Auth0 Deploy CLI <span class="ext" aria-hidden="true">↗</span></a></li>
+                  <li><a class="megalink" href="#"><img src="assets/images/auth0.com/auth0-status.6249ed03-8378bf42ff.png" alt="" width="32" height="32"> Auth0 Status <span class="ext" aria-hidden="true">↗</span></a></li>
+                </ul>
+              </div>
+              <div class="megacol">
+                <p class="megacol__title">Connect</p>
+                <ul>
+                  <li><a class="megalink" href="#">Community <span class="ext" aria-hidden="true">↗</span></a></li>
+                  <li><a class="megalink" href="#">Knowledge Base <span class="ext" aria-hidden="true">↗</span></a></li>
+                  <li><a class="megalink" href="#">Support Center <span class="ext" aria-hidden="true">↗</span></a></li>
+                  <li><a class="megalink" href="#">Developer Center <span class="ext" aria-hidden="true">↗</span></a></li>
+                  <li><a class="megalink" href="#">Marketplace <span class="ext" aria-hidden="true">↗</span></a></li>
+                  <li><a class="megalink" href="#">Events <span class="ext" aria-hidden="true">↗</span></a></li>
+                </ul>
+                <a class="megafeature" href="#">
+                  <img src="assets/images/cdn.auth0.com/auth0-launchpad-98d413b1f7.png" alt="Auth0 Launchpad" width="3090" height="4000">
+                  <span class="megafeature__body">
+                    <span class="eyebrow">Featured</span>
+                    <span class="t-body">Auth0 Launchpad</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="navitem" data-navitem data-open="false" data-od-id="nav-product">
+          <button class="navitem__label" type="button" aria-expanded="false">Product <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <div class="megamenu">
+            <div class="megamenu__grid shell" style="--cols:3">
+              <div class="megacol">
+                <p class="megacol__title">AI Identity</p>
+                <ul>
+                  <li><a class="megalink" href="#">B2B</a></li>
+                  <li><a class="megalink" href="#">Commerce</a></li>
+                </ul>
+              </div>
+              <div class="megacol">
+                <p class="megacol__title">Customer Identity</p>
+                <ul>
+                  <li><a class="megalink" href="#">Universal Login</a></li>
+                  <li><a class="megalink" href="#">Passwordless</a></li>
+                  <li><a class="megalink" href="#">User Management</a></li>
+                  <li><a class="megalink" href="#">Authentication</a></li>
+                  <li><a class="megalink" href="#">Breached Passwords</a></li>
+                  <li><a class="megalink" href="#">Embedded Login</a></li>
+                </ul>
+              </div>
+              <div class="megacol">
+                <p class="megacol__title">Featured content</p>
+                <a class="megafeature" href="#">
+                  <img src="assets/images/cdn.auth0.com/6f53c9d2a4895b8146f18983686c27a9aeac99cd-4eef395780.png" alt="Building Secure AI Agents whitepaper cover" width="600" height="777">
+                  <span class="megafeature__body">
+                    <span class="eyebrow">Whitepaper</span>
+                    <span class="t-body">Building Secure AI Agents</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="navitem" data-navitem data-open="false" data-od-id="nav-solutions">
+          <button class="navitem__label" type="button" aria-expanded="false">Solutions <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <div class="megamenu">
+            <div class="megamenu__grid shell" style="--cols:3">
+              <div class="megacol">
+                <p class="megacol__title">Use cases</p>
+                <ul>
+                  <li><a class="megalink" href="#">Enterprise</a></li>
+                  <li><a class="megalink" href="#">B2B SaaS</a></li>
+                  <li><a class="megalink" href="#">B2B Connect</a></li>
+                  <li><a class="megalink" href="#">B2C</a></li>
+                  <li><a class="megalink" href="#">Startups</a></li>
+                  <li><a class="megalink" href="#">Nonprofits</a></li>
+                </ul>
+              </div>
+              <div class="megacol">
+                <p class="megacol__title">Who it’s for</p>
+                <ul>
+                  <li><a class="megalink" href="#">Financial Services</a></li>
+                  <li><a class="megalink" href="#">Healthcare</a></li>
+                  <li><a class="megalink" href="#">Retail</a></li>
+                  <li><a class="megalink" href="#">Partners</a></li>
+                </ul>
+              </div>
+              <div class="megacol">
+                <p class="megacol__title">Featured content</p>
+                <a class="megafeature" href="#">
+                  <img src="assets/images/cdn.auth0.com/from-prototype-to-production-850acab2c7.png" alt="From Prototype to Production whitepaper cover" width="3090" height="4000">
+                  <span class="megafeature__body">
+                    <span class="eyebrow">Whitepaper</span>
+                    <span class="t-body">From Prototype to Production</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="navitem" data-navitem data-open="false" data-od-id="nav-library">
+          <button class="navitem__label" type="button" aria-expanded="false">Library <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <div class="megamenu">
+            <div class="megamenu__grid shell" style="--cols:2">
+              <div class="megacol">
+                <p class="megacol__title">Explore by topic</p>
+                <ul>
+                  <li><a class="megalink" href="#">AI</a></li>
+                  <li><a class="megalink" href="#">Developers</a></li>
+                  <li><a class="megalink" href="#">Identity &amp; Security</a></li>
+                  <li><a class="megalink" href="#">Business</a></li>
+                  <li><a class="megalink" href="#">Engineering</a></li>
+                  <li><a class="megalink" href="#">Announcements</a></li>
+                </ul>
+                <a class="megacta" href="#">Visit the blog <span aria-hidden="true">→</span></a>
+              </div>
+              <div class="megacol">
+                <p class="megacol__title">Explore by type</p>
+                <ul>
+                  <li><a class="megalink" href="#">Ebooks</a></li>
+                  <li><a class="megalink" href="#">Videos</a></li>
+                  <li><a class="megalink" href="#">Podcasts</a></li>
+                  <li><a class="megalink" href="#">Webinars</a></li>
+                  <li><a class="megalink" href="#">Upcoming Webinars</a></li>
+                  <li><a class="megalink" href="#">Whitepapers</a></li>
+                </ul>
+                <a class="megacta" href="#">Browse resources <span aria-hidden="true">→</span></a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="navitem" data-od-id="nav-pricing">
+          <a class="navitem__label" href="#">Pricing</a>
+        </li>
+      </ul>
+
+      <div class="navbar__actions">
+        <a class="btn btn--primary" href="#" data-od-id="nav-signup">Sign up</a>
+        <a class="btn btn--ghost" href="#" data-od-id="nav-connect">Let's connect</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main id="main" class="page">
+
+  <!-- ============ hero ============ -->
+  <section class="hero" data-od-id="hero">
+    <div class="hero__media" aria-hidden="true">
+      <video autoplay muted loop playsinline poster="assets/images/cdn.auth0.com/Desktop-3d22249425.png">
+        <source src="assets/media/cdn.auth0.com/HeroGradient_720x1280_Mobile-114583ee3f.webm" media="(max-width: 768px)" type="video/webm">
+        <source src="assets/media/cdn.auth0.com/HeroGradient_1920x1080_DesktopXL-166afe019e.webm" type="video/webm">
+      </video>
+    </div>
+
+    <div class="hero__body shell">
+      <div class="hero__inner">
+        <a class="hero__badge" href="#" data-od-id="hero-badge">
+          <span>Auth0 platform announcements</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17" fill="none" aria-hidden="true" focusable="false"><path d="M3.5 8.5H13.5M13.5 8.5L9 4M13.5 8.5L9 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        </a>
+        <h1 class="t-display">Convert, protect,<br>&amp; personalize every journey</h1>
+        <p class="t-lead">Auth0 makes every login effortless, so fewer customers walk away. It helps stops fraud behind the scenes and keeps users recognized across your sites, apps, and AI-assisted touchpoints.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#" data-od-id="hero-cta-primary">See it in action</a>
+          <a class="btn btn--ghost" href="#" data-od-id="hero-cta-secondary">Talk to an expert</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="marquee shell" data-od-id="customer-marquee">
+      <h2 class="visually-hidden">Customers using Auth0</h2>
+      <div class="marquee__window">
+        <div class="marquee__track" data-marquee></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ lifecycle arc ============ -->
+  <section class="lifecycle" data-od-id="lifecycle" data-mode="b2c">
+    <div class="lifecycle__head">
+      <h2 class="t-h2-lg">Identity for the entire customer lifecycle</h2>
+    </div>
+
+    <div class="uj-toggle" role="group" aria-label="Audience">
+      <button type="button" data-mode-btn="b2c" aria-pressed="true">B2C</button>
+      <button type="button" data-mode-btn="b2b" aria-pressed="false">B2B</button>
+    </div>
+
+    <div class="uj-viewport">
+      <div class="uj-stage" data-uj-stage>
+                <div class="uj-arm" data-arm="0" data-active="true" aria-hidden="true"><svg width="450" height="450" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.2" d="M76.74 418.26l211.2-.4c4.32 0 7.86-3.44 7.98-7.75.54-18.73 4.26-69.11 27.51-124.91 22.53-54.07 51.16-85.81 63.37-97.74 3.18-3.11 3.19-8.22.05-11.36L240.18 29.41c-3.17-3.17-8.32-3.12-11.42.11-18.85 19.63-79.73 87.02-113.54 171.63-33.77 84.52-44.02 179.68-46.46 208.44-.4 4.67 3.3 8.68 7.99 8.67h-.01z" fill="#fff"></path><path class="arc-edge" d="M297.3 389.57l-.8 9.3-.57 11.23s-.5 5.69-5.14 7.23v-10.75s-1.13-65.33 35.19-139.93c0 0 22.98-54.09 62.23-88.78 0 0 2.92 4.81-1.39 9.58-2.37 2.63-34.45 33.88-52.88 75.83 0 0-30.57 59.03-36.63 126.29h-.01z" fill="url(#arcgrad0)"></path><defs><linearGradient id="arcgrad0" x1="285.14" y1="421.09" x2="392" y2="127.48" gradientUnits="userSpaceOnUse"><stop stop-color="#fff" stop-opacity="0.05"></stop><stop offset="0.53" stop-color="#fff"></stop><stop offset="1" stop-color="#fff" stop-opacity="0.05"></stop></linearGradient></defs></svg></div>
+        <div class="uj-arm" data-arm="1" data-active="false" aria-hidden="true"><svg width="450" height="450" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.2" d="M18.16 233.97l149.63 149.06c3.06 3.05 7.99 3.12 11.13.16 13.63-12.87 51.88-45.86 107.78-68.87 55.9-23.01 96.85-24.5 113.92-24.3 4.44.05 8.07-3.55 8.07-8V74.58c0-4.48-3.67-8.09-8.15-8-27.21.55-117.91 5.15-201.64 41.08-83.65 35.89-158.19 95.92-180.26 114.53-3.59 3.02-3.8 8.47-.48 11.78z" fill="#fff"></path><path class="arc-edge" d="M186.38 376.38c-1.2 1.1-7.14 6.69-8.79 7.83-1.65 1.14-5.34 2.29-9.35-.77l9.07-7.97s41.69-40.51 103.98-66.81c47.4-20.01 102.97-27.99 127.4-26.32 0 0-.93 7.48-7.08 7.62-29.45.65-70.68 5.02-117.07 25.26 0 0-57.05 23.52-98.15 61.15l-.01.01z" fill="url(#arcgrad1)"></path><defs><linearGradient id="arcgrad1" x1="162.027" y1="383.16" x2="447.727" y2="249.941" gradientUnits="userSpaceOnUse"><stop stop-color="#fff" stop-opacity="0.05"></stop><stop offset="0.53" stop-color="#fff"></stop><stop offset="1" stop-color="#fff" stop-opacity="0.05"></stop></linearGradient></defs></svg></div>
+        <div class="uj-arm" data-arm="2" data-active="false" aria-hidden="true"><svg width="450" height="450" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.2" d="M18.16 233.97l149.63 149.06c3.06 3.05 7.99 3.12 11.13.16 13.63-12.87 51.88-45.86 107.78-68.87 55.9-23.01 96.85-24.5 113.92-24.3 4.44.05 8.07-3.55 8.07-8V74.58c0-4.48-3.67-8.09-8.15-8-27.21.55-117.91 5.15-201.64 41.08-83.65 35.89-158.19 95.92-180.26 114.53-3.59 3.02-3.8 8.47-.48 11.78z" fill="#fff"></path><path class="arc-edge" d="M186.38 376.38c-1.2 1.1-7.14 6.69-8.79 7.83-1.65 1.14-5.34 2.29-9.35-.77l9.07-7.97s41.69-40.51 103.98-66.81c47.4-20.01 102.97-27.99 127.4-26.32 0 0-.93 7.48-7.08 7.62-29.45.65-70.68 5.02-117.07 25.26 0 0-57.05 23.52-98.15 61.15l-.01.01z" fill="url(#arcgrad2)"></path><defs><linearGradient id="arcgrad2" x1="162.027" y1="383.16" x2="447.727" y2="249.941" gradientUnits="userSpaceOnUse"><stop stop-color="#fff" stop-opacity="0.05"></stop><stop offset="0.53" stop-color="#fff"></stop><stop offset="1" stop-color="#fff" stop-opacity="0.05"></stop></linearGradient></defs></svg></div>
+        <div class="uj-arm" data-arm="3" data-active="false" aria-hidden="true"><svg width="450" height="450" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.2" d="M76.74 418.26l211.2-.4c4.32 0 7.86-3.44 7.98-7.75.54-18.73 4.26-69.11 27.51-124.91 22.53-54.07 51.16-85.81 63.37-97.74 3.18-3.11 3.19-8.22.05-11.36L240.18 29.41c-3.17-3.17-8.32-3.12-11.42.11-18.85 19.63-79.73 87.02-113.54 171.63-33.77 84.52-44.02 179.68-46.46 208.44-.4 4.67 3.3 8.68 7.99 8.67h-.01z" fill="#fff"></path><path class="arc-edge" d="M297.3 389.57l-.8 9.3-.57 11.23s-.5 5.69-5.14 7.23v-10.75s-1.13-65.33 35.19-139.93c0 0 22.98-54.09 62.23-88.78 0 0 2.92 4.81-1.39 9.58-2.37 2.63-34.45 33.88-52.88 75.83 0 0-30.57 59.03-36.63 126.29h-.01z" fill="url(#arcgrad3)"></path><defs><linearGradient id="arcgrad3" x1="285.14" y1="421.09" x2="392" y2="127.48" gradientUnits="userSpaceOnUse"><stop stop-color="#fff" stop-opacity="0.05"></stop><stop offset="0.53" stop-color="#fff"></stop><stop offset="1" stop-color="#fff" stop-opacity="0.05"></stop></linearGradient></defs></svg></div>
+
+        <button class="uj-node" type="button" data-node="0" data-uj-node>
+          <img src="" alt="" data-node-icon>
+          <span data-node-label></span>
+        </button>
+        <button class="uj-node" type="button" data-node="1" data-uj-node>
+          <img src="" alt="" data-node-icon>
+          <span data-node-label></span>
+        </button>
+        <button class="uj-node" type="button" data-node="2" data-uj-node>
+          <img src="" alt="" data-node-icon>
+          <span data-node-label></span>
+        </button>
+        <button class="uj-node" type="button" data-node="3" data-uj-node>
+          <img src="" alt="" data-node-icon>
+          <span data-node-label></span>
+        </button>
+
+        <div class="uj-center" aria-live="polite">
+          <h3 data-uj-title></h3>
+          <p data-uj-copy></p>
+          <a class="btn btn--primary" href="#" data-uj-cta data-od-id="lifecycle-cta"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ stats ============ -->
+  <section class="stats shell" data-od-id="stats">
+    <h2 class="visually-hidden">Auth0 by the numbers</h2>
+    <div class="stats__grid">
+      <div class="stat" data-od-id="stat-security">
+        <p class="eyebrow">Security built-in</p>
+        <p class="stat__value">3 billion+</p>
+        <p class="stat__label">attacks blocked each month*</p>
+        <p class="stat__note">*by Okta (Auth0 and Okta platforms)</p>
+      </div>
+      <div class="stat" data-od-id="stat-uptime">
+        <p class="eyebrow">Always-on performance</p>
+        <p class="stat__value">99.99%</p>
+        <p class="stat__label">uptime</p>
+        <p class="stat__note">*12-month availability, as indicated at <a href="#">trust.okta.com</a></p>
+      </div>
+      <div class="stat" data-od-id="stat-scale">
+        <p class="eyebrow">Scalable</p>
+        <p class="stat__value">23 billion+</p>
+        <p class="stat__label">authentications every month</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ built for what you're building ============ -->
+  <section class="tabber shell" data-od-id="tabber">
+    <div class="tabber__grid">
+      <div class="tabber__aside">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none"><mask id="mask0_8551_23975" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32"><path d="M32 0H0V32H32V0Z" fill="white"></path></mask><g mask="url(#mask0_8551_23975)"><path d="M16.3818 9.69827C17.7484 12.1968 19.8032 14.2517 22.3018 15.6182L23 16L22.3018 16.3818C19.8032 17.7484 17.7483 19.8032 16.3818 22.3018L16 23L15.6182 22.3018C14.2516 19.8032 12.1968 17.7483 9.69824 16.3818L9 16L9.69824 15.6182C12.1968 14.2516 14.2517 12.1968 15.6182 9.69827L16 9.00003L16.3818 9.69827ZM16 11.9248C14.893 13.5132 13.5132 14.893 11.9248 16C13.513 17.1069 14.893 18.4861 16 20.0742C17.1068 18.4863 18.4863 17.1068 20.0742 16C18.4861 14.893 17.1069 13.513 16 11.9248Z" fill="#EBD3FF"></path><path d="M27.9093 8.28782C28.7532 8.78089 29.2724 9.68448 29.2724 10.6618L29.2717 21.3271C29.2717 22.3029 28.755 23.2055 27.9134 23.6991L17.3952 29.8684C16.5375 30.3714 15.475 30.3728 14.6165 29.8711L4.1066 23.7295C3.26304 23.2364 2.74492 22.3326 2.74487 21.3555V10.6577C2.74487 9.68074 3.26324 8.77689 4.1066 8.28368L14.611 2.14069C15.4681 1.63951 16.5289 1.63916 17.3862 2.14L27.9093 8.28782ZM27.7726 10.6618C27.7726 10.2177 27.5366 9.80673 27.1531 9.58257L16.6294 3.43544C16.2398 3.20785 15.758 3.20783 15.3685 3.43544L4.86343 9.57912C4.48022 9.80334 4.24471 10.2137 4.24471 10.6577V21.3555C4.24476 21.7997 4.4806 22.2107 4.86412 22.4348L15.3733 28.5757C15.7635 28.8037 16.2465 28.8035 16.6363 28.575L27.1545 22.4058C27.5371 22.1814 27.7719 21.7707 27.7719 21.3271L27.7726 10.6618Z" fill="#BC6DFF"></path></g></svg>
+          <h2 class="t-h3">Built for what<br>you're building</h2>
+        </div>
+        <div class="tabber__list" role="tablist" aria-label="What are you building?">
+          <button class="tabber__item" type="button" role="tab" aria-current="true" data-tabber-item="0">AI Agents</button>
+          <button class="tabber__item" type="button" role="tab" aria-current="false" data-tabber-item="1">B2C Apps &amp; Platforms</button>
+          <button class="tabber__item" type="button" role="tab" aria-current="false" data-tabber-item="2">Enterprise B2B SaaS</button>
+          <button class="tabber__item" type="button" role="tab" aria-current="false" data-tabber-item="3">Machine Identities and APIs</button>
+        </div>
+      </div>
+
+      <div class="tabber__cards">
+        <article class="tcard" data-tabber-card="0" data-active="true" data-od-id="tabber-card-ai-agents">
+          <div class="tcard__text">
+            <div class="tcard__head">
+              <h3 class="t-card-title">Ship AI agents faster,<br>without losing control</h3>
+              <p>Give AI agents verifiable identities through pre-built SDKs, and control their access to RAG data sources and MCP tools. Authorize your agents to hit paid external services and fetch sensitive data, while keeping a human in the loop for critical transactions.</p>
+            </div>
+            <div class="tcard__caps">
+              <p class="eyebrow">Featured capabilities</p>
+              <div class="tcard__cols">
+          <ul>
+            <li>User authentication</li>
+            <li>Token Vault</li>
+            <li>Auth for model context protocol (MCP)</li>
+          </ul>
+          <ul>
+            <li>Asynchronous authorization</li>
+            <li>Agent as Principal</li>
+            <li>Fine-Grained Authorization (FGA) for retrieval-augmented generation (RAG)</li>
+          </ul>
+              </div>
+            </div>
+            <div class="tcard__actions">
+              <a class="btn btn--primary" href="#">AI Identity for B2B</a>
+              <a class="btn btn--ghost" href="#">AI Identity for Commerce</a>
+            </div>
+          </div>
+          <div class="tcard__media">
+            <video autoplay muted loop playsinline preload="auto" aria-hidden="true">
+              <source src="assets/media/cdn.auth0.com/HomepageTabber01_AIAgents-3e4e82e10d.webm" type="video/webm">
+            </video>
+          </div>
+        </article>
+
+        <article class="tcard" data-tabber-card="1" data-active="false" data-od-id="tabber-card-b2c">
+          <div class="tcard__text">
+            <div class="tcard__head">
+              <h3 class="t-card-title">Drive sign-ups with<br>frictionless authentication</h3>
+              <p>Don't let a clunky login screen block growth and revenue. Deploy passwordless, social logins, and adaptive MFA to boost conversion, and safely delegate access so agents can act on a user's behalf.</p>
+            </div>
+            <div class="tcard__caps">
+              <p class="eyebrow">Featured capabilities</p>
+              <div class="tcard__cols">
+          <ul>
+            <li>Passwordless</li>
+            <li>Adaptive Authentication</li>
+            <li>AI Identity for Commerce</li>
+          </ul>
+          <ul>
+            <li>Embedded Login</li>
+            <li>Progressive Profiling</li>
+            <li>Bot Detection</li>
+          </ul>
+              </div>
+            </div>
+            <div class="tcard__actions">
+              <a class="btn btn--ghost" href="#">Explore B2C customer identity solutions</a>
+            </div>
+          </div>
+          <div class="tcard__media">
+            <video autoplay muted loop playsinline preload="auto" aria-hidden="true">
+              <source src="assets/media/cdn.auth0.com/HomepageTabber02_B2C-f55f4d31c1.webm" type="video/webm">
+            </video>
+          </div>
+        </article>
+
+        <article class="tcard" data-tabber-card="2" data-active="false" data-od-id="tabber-card-b2b">
+          <div class="tcard__text">
+            <div class="tcard__head">
+              <h3 class="t-card-title">Build enterprise-ready auth without the headache</h3>
+              <p>Stop burning sprints on custom SAML just to close a contract. Power your B2B SaaS with enterprise SSO and SCIM, manage multi-tenancy support, and enforce fine-grained permissions for both human users and AI agents.</p>
+            </div>
+            <div class="tcard__caps">
+              <p class="eyebrow">Featured capabilities</p>
+              <div class="tcard__cols">
+          <ul>
+            <li>Enterprise Connections</li>
+            <li>Tenancy-as-a-Service</li>
+            <li>AI Identity for B2B</li>
+            <li>My Organization API and Embeddable UI Components</li>
+          </ul>
+          <ul>
+            <li>Organizations</li>
+            <li>Fine-Grained Authorization (FGA)</li>
+            <li>Self-Service Enterprise Configuration</li>
+          </ul>
+              </div>
+            </div>
+            <div class="tcard__actions">
+              <a class="btn btn--ghost" href="#">Discover Auth0 for B2B SaaS</a>
+            </div>
+          </div>
+          <div class="tcard__media">
+            <video autoplay muted loop playsinline preload="auto" aria-hidden="true">
+              <source src="assets/media/cdn.auth0.com/HomepageTabber03_B2B-2e04ab95d9.webm" type="video/webm">
+            </video>
+          </div>
+        </article>
+
+        <article class="tcard" data-tabber-card="3" data-active="false" data-od-id="tabber-card-machines">
+          <div class="tcard__text">
+            <div class="tcard__head">
+              <h3 class="t-card-title">Secure machine<br>identities &amp; APIs at scale</h3>
+              <p>Don't let long-lived API keys and sprawling service credentials become a compliance liability and attack surface. Issue short-lived tokens via the Client Credentials flow, rotate signing keys automatically through JWKS rotation, and keep every service access auditable and revocable.</p>
+            </div>
+            <div class="tcard__caps">
+              <p class="eyebrow">Featured capabilities</p>
+              <div class="tcard__cols">
+          <ul>
+            <li>M2M authentication</li>
+            <li>Fine-Grained Authorization (FGA)</li>
+            <li>Signing Key Rotation</li>
+          </ul>
+          <ul>
+            <li>API Authorization</li>
+            <li>Private Key JSON Web Token (JWT) &amp; mutual TLS (mTLS) Client Authentication</li>
+          </ul>
+              </div>
+            </div>
+            <div class="tcard__actions">
+              <a class="btn btn--ghost" href="#">View internal app security features</a>
+            </div>
+          </div>
+          <div class="tcard__media">
+            <video autoplay muted loop playsinline preload="auto" aria-hidden="true">
+              <source src="assets/media/cdn.auth0.com/HomepageTabber04_Machines-d5e31217bc.webm" type="video/webm">
+            </video>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ industries ============ -->
+  <section class="industries shell" data-od-id="industries">
+    <div class="industries__head">
+      <h2 class="t-h2">Built for industries that can’t afford to slow down</h2>
+      <p>Identity complexity shouldn’t be what holds your industry back. Auth0 removes the overhead so your teams can focus on the innovation that drives growth.</p>
+    </div>
+
+    <ul class="pillbar" role="tablist" aria-label="Industries">
+      <li><button class="pill" type="button" role="tab" aria-selected="true" data-industry-tab="0">Retail</button></li>
+      <li><button class="pill" type="button" role="tab" aria-selected="false" data-industry-tab="1">Financial Services</button></li>
+      <li><button class="pill" type="button" role="tab" aria-selected="false" data-industry-tab="2">Healthcare</button></li>
+      <li><button class="pill" type="button" role="tab" aria-selected="false" data-industry-tab="3">Tech &amp; Media</button></li>
+      <li><button class="pill" type="button" role="tab" aria-selected="false" data-industry-tab="4">Manufacturing</button></li>
+    </ul>
+
+    <div class="industry" role="tabpanel" data-industry-panel="0" data-od-id="industry-retail">
+      <div class="industry__figure">
+        <img src="assets/images/cdn.auth0.com/retail-40982b7caa.png" width="1026" height="810" alt="Retail login experience built with Auth0" loading="lazy">
+      </div>
+      <div class="industry__body">
+        <h3>Retail</h3>
+        <p>Modernize omnichannel retail journeys to foster loyalty, boost conversion, and better secure every shopper—from human to AI.</p>
+        <div class="industry__logos">
+          <img src="assets/images/cdn.auth0.com/logo-jersey-mikes-f273db606a.png" width="136" height="100" alt="Jersey Mike's" loading="lazy">
+          <img src="assets/images/cdn.auth0.com/image_5148-e348ebc7b9.png" width="346" height="56" alt="Foodstuffs North Island" loading="lazy">
+          <img src="assets/images/cdn.auth0.com/image_5149-f9fb92f6b1.png" width="216" height="84" alt="Dunelm" loading="lazy">
+        </div>
+        <a class="btn btn--ghost" href="#">Learn more <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+
+    <div class="industry" role="tabpanel" data-industry-panel="1" hidden data-od-id="industry-financial">
+      <div class="industry__figure">
+        <img src="assets/images/cdn.auth0.com/fin-serv-a359984a7d.png" width="924" height="900" alt="Financial services identity flow built with Auth0" loading="lazy">
+      </div>
+      <div class="industry__body">
+        <h3>Financial Services</h3>
+        <p>Reduce fraud, streamline onboarding, and ship governed AI agents with more secure, personalized financial experiences.</p>
+        <div class="industry__logos">
+          <img src="assets/images/cdn.auth0.com/logo-moniflo-431570b8a2.png" width="260" height="66" alt="Moniflo" loading="lazy">
+          <img src="assets/images/cdn.auth0.com/logo-moneyfarm-5b54b1169b.png" width="346" height="52" alt="Moneyfarm" loading="lazy">
+          <img src="assets/images/cdn.auth0.com/logo-octus-d5f983b885.png" width="250" height="62" alt="Octus" loading="lazy">
+        </div>
+        <a class="btn btn--ghost" href="#">Learn more <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+
+    <div class="industry" role="tabpanel" data-industry-panel="2" hidden data-od-id="industry-healthcare">
+      <div class="industry__figure">
+        <img src="assets/images/cdn.auth0.com/healthcare-11430cdebe.png" width="1132" height="949" alt="Healthcare patient and clinician access built with Auth0" loading="lazy">
+      </div>
+      <div class="industry__body">
+        <h3>Healthcare</h3>
+        <p>Power patient, caregiver, agent, and clinician access across your systems—ship faster without rebuilding identity.</p>
+        <a class="btn btn--ghost" href="#">Learn more <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+
+    <div class="industry" role="tabpanel" data-industry-panel="3" hidden data-od-id="industry-tech-media">
+      <div class="industry__figure">
+        <img src="assets/images/cdn.auth0.com/tech-media-cc54464c63.png" width="900" height="810" alt="Technology and media identity experience built with Auth0" loading="lazy">
+      </div>
+      <div class="industry__body">
+        <h3>Technology, Media &amp; Entertainment, &amp; Telecommunication</h3>
+        <p>Build, secure, and seamlessly orchestrate identity with less time and effort. Meet customers’ expectations for highly tailored, available, convenient, and trustworthy experiences.</p>
+        <div class="industry__logos">
+          <img src="assets/images/cdn.auth0.com/logo-jamf-b03cb24cc2.png" width="193" height="74" alt="Jamf" loading="lazy">
+          <img src="assets/images/cdn.auth0.com/logo-vialtopartners-8a88911b48.png" width="196" height="57" alt="Vialto Partners" loading="lazy">
+          <img src="assets/images/cdn.auth0.com/logo-xometry-dd6cfe3ffb.png" width="260" height="58" alt="Xometry" loading="lazy">
+        </div>
+        <a class="btn btn--ghost" href="#">Learn more <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+
+    <div class="industry" role="tabpanel" data-industry-panel="4" hidden data-od-id="industry-manufacturing">
+      <div class="industry__figure">
+        <img src="assets/images/cdn.auth0.com/manufacturing-099cbf02bd.png" width="900" height="834" alt="Manufacturing and supply-chain identity built with Auth0" loading="lazy">
+      </div>
+      <div class="industry__body">
+        <h3>Manufacturing</h3>
+        <p>Power smart IoT and AI innovation on the factory floor through more secure identity for your customers and supply chain.</p>
+        <div class="industry__logos">
+          <img src="assets/images/cdn.auth0.com/logo-siemens-00c6d240e3.png" width="252" height="40" alt="Siemens" loading="lazy">
+          <img src="assets/images/cdn.auth0.com/logo-claas-07ca455d15.png" width="286" height="50" alt="CLAAS" loading="lazy">
+          <img src="assets/images/cdn.auth0.com/logo-signify-18639cbff1.png" width="207" height="50" alt="Signify" loading="lazy">
+        </div>
+        <a class="btn btn--ghost" href="#">Learn more <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ integrate / coding agents ============ -->
+  <section class="agents shell" data-od-id="agents">
+    <div class="agents__head">
+      <h2 class="t-h2">Integrate auth into any stack in minutes</h2>
+      <p>Use our <a href="#">30+ SDKs and Quickstarts</a> to integrate auth into any language or framework.</p>
+    </div>
+
+    <div class="segmented" role="tablist" aria-label="Coding agents">
+      <button type="button" role="tab" aria-selected="true" data-agent-tab="0"><svg preserveAspectRatio="none" overflow="visible" width="17" height="10.625" fill="none" xmlns="http://www.w3.org/2000/svg" display="block"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.874 4.214H17V6.41h-2.125v2.145h-1.053v2.069H12.75V8.556h-1.053v2.069h-1.072V8.556h-4.25v2.069H5.304V8.556H4.25v2.069H3.178V8.556H2.125V6.41H0V4.215h2.125V0h12.749v4.214zm-10.624 0h1.054V2.197H4.25v2.017zm7.445 0h1.055V2.197h-1.055v2.017z" fill="currentColor"></path></svg> Claude</button>
+      <button type="button" role="tab" aria-selected="false" data-agent-tab="1"><svg preserveAspectRatio="none" overflow="visible" width="15.789" height="18" fill="none" xmlns="http://www.w3.org/2000/svg" display="block"><path d="M15.474 4.26L8.268.1a.749.749 0 00-.748 0L.315 4.26A.63.63 0 000 4.805v8.39c0 .225.12.432.315.545L7.52 17.9a.749.749 0 00.749 0l7.206-4.16a.63.63 0 00.314-.545v-8.39a.63.63 0 00-.314-.545zm-.452.882L8.065 17.19c-.047.081-.17.048-.17-.046V9.255a.442.442 0 00-.222-.383L.841 4.928c-.08-.047-.048-.171.046-.171H14.8c.197 0 .32.214.222.385z" fill="currentColor"></path></svg> Cursor</button>
+      <button type="button" role="tab" aria-selected="false" data-agent-tab="2"><svg preserveAspectRatio="none" overflow="visible" width="15.989" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" display="block"><path d="M5.385.308c.158-.064.323-.12.494-.167.166-.043.335-.077.506-.103.172-.02.345-.034.52-.038.171 0 .342.01.513.032.886.103 1.679.481 2.38 1.136l.026.019h.039c.222-.06.45-.1.686-.122.231-.017.46-.015.687.006.235.017.463.058.686.122.222.056.438.133.648.231l.038.026.103.051c.222.107.43.238.622.392.201.145.385.31.552.494a4.277 4.277 0 01.776 1.245c.184.448.276.92.276 1.417.009.09.009.18 0 .27l-.013.275a4.726 4.726 0 01-.103.539V6.191c0 .004.003.013.007.026l.02.019c.525.539.874 1.18 1.045 1.924.257 1.27-.004 2.415-.783 3.433l-.121.14a3.43 3.43 0 01-.418.411 3.503 3.503 0 01-.988.622c-.175.082-.357.15-.545.206-.013 0-.021.004-.025.013-.013 0-.022.002-.026.006a.187.187 0 00-.02.026.05.05 0 01-.006.02c-.173.493-.34.91-.654 1.327C11.505 15.423 10.33 16 9.003 16c-1.052-.004-1.985-.391-2.797-1.161l-.026-.013a.057.057 0 00-.026-.006H6.11c-.347.109-.7.121-1.072.121-.15 0-.3-.01-.449-.032a4.179 4.179 0 01-.443-.077 3.99 3.99 0 01-.423-.128 3.51 3.51 0 01-.41-.18 3.894 3.894 0 01-.411-.23 4.631 4.631 0 01-.372-.276 2.808 2.808 0 01-.353-.321 2.998 2.998 0 01-.295-.36 2.826 2.826 0 01-.372-.545l-.103-.205a3.106 3.106 0 00-.083-.212 2.21 2.21 0 01-.077-.218 7.263 7.263 0 01-.064-.218 3.674 3.674 0 01-.103-.507 3.453 3.453 0 010-1.026c.017-.171.047-.342.09-.513v-.007-.006c.008-.009.013-.015.013-.02 0-.004-.005-.006-.013-.006v-.02c0-.003-.002-.006-.007-.006v-.012l-.006-.007a5.476 5.476 0 01-.295-.333 9.013 9.013 0 01-.257-.347A8.411 8.411 0 01.4 8.744a3.657 3.657 0 01-.167-.404 1.88 1.88 0 01-.083-.263 1.91 1.91 0 01-.07-.257 5.897 5.897 0 01-.046-.27 64.677 64.677 0 00-.025-.275c-.009-.12-.011-.24-.007-.36 0-.119.007-.234.02-.346.004-.12.016-.24.038-.359.017-.12.04-.237.07-.353.3-.988.875-1.764 1.726-2.329.184-.124.36-.22.526-.288a5.179 5.179 0 01.597-.212.042.042 0 01.02-.02c.003 0 .006-.006.006-.018a5.104 5.104 0 01.148-.398 2.5 2.5 0 01.16-.366 3.588 3.588 0 01.442-.686c.107-.137.22-.263.34-.379.128-.12.259-.235.392-.346.136-.103.282-.197.436-.283.15-.085.303-.16.462-.224zM8.483 9.7a.533.533 0 00-.385.18.556.556 0 00-.154.378c0 .148.058.283.154.398.103.103.238.16.385.167h3.234a.532.532 0 00.417-.154.578.578 0 00.18-.41.564.564 0 00-.18-.405.51.51 0 00-.417-.154H8.483zM4.846 5.536a.559.559 0 00-.757-.192.548.548 0 00-.263.334.55.55 0 00.038.417L5 8.077 3.877 9.97a.609.609 0 00-.07.436.585.585 0 00.262.34.531.531 0 00.43.057.548.548 0 00.347-.25l1.29-2.187a.294.294 0 00.057-.135.558.558 0 000-.289.4.4 0 00-.051-.14L4.846 5.535z" fill="currentColor"></path></svg> Codex</button>
+      <button type="button" role="tab" aria-selected="false" data-agent-tab="3"><svg preserveAspectRatio="none" overflow="visible" width="17.369" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" display="block"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.741 15.637c.97.727 2.424.242 1.091-1.091C12.832 10.667 13.681 0 8.711 0 3.741 0 4.59 10.667.59 14.546c-1.455 1.454.12 1.817 1.09 1.09 3.758-2.545 3.515-7.03 7.031-7.03 3.515 0 3.273 4.485 7.03 7.03z" fill="currentColor"></path></svg> Antigravity</button>
+    </div>
+
+    <div class="agents__panel" role="tabpanel" data-agent-panel="0">
+      <div class="terminal">
+        <div class="ln"><span class="sig">$</span><span>claude</span></div>
+        <div class="ln"><span class="sig">$</span><span>/plugin install auth0@claude-plugins-official <span class="ok">✓ detected</span></span></div>
+        <div class="ln"><span class="sig">&gt;</span><span>Add Auth0 login to this app</span></div>
+        <div class="ln"><span class="sig">L</span><span class="mag">installing @auth0/nextjs-auth0 ✓</span></div>
+        <div class="ln"><span class="sig">L</span><span class="mag">wiring routes + login ✓</span></div>
+        <div class="ln"><span class="sig ok">✓</span><span class="ok">Auth0 is live ∙ ready in 4.2s</span></div>
+      </div>
+      <div class="copyrow">
+        <button class="copybtn" type="button" data-copy="/plugin install auth0@claude-plugins-official">
+          <span class="idx">1</span><span class="cmd">/plugin install auth0@claude-plugins-official</span>
+          <span class="lbl"><svg preserveAspectRatio="none" overflow="visible" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" display="block"><g fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.333 1.333V10a2 2 0 002 2H12V3.333a2 2 0 00-2-2H1.333zM2.667 10V2.667H10c.368 0 .667.298.667.666v7.334H3.333A.667.667 0 012.667 10z"></path><path d="M13.333 4.667v8a.667.667 0 01-.666.666H4v1.334h8.667a2 2 0 002-2v-8h-1.334z"></path></g></svg>Copy</span>
+        </button>
+        <button class="copybtn" type="button" data-copy="Add Auth0 login to this app">
+          <span class="idx">2</span><span class="cmd">Add Auth0 login to this app</span>
+          <span class="lbl"><svg preserveAspectRatio="none" overflow="visible" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" display="block"><g fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.333 1.333V10a2 2 0 002 2H12V3.333a2 2 0 00-2-2H1.333zM2.667 10V2.667H10c.368 0 .667.298.667.666v7.334H3.333A.667.667 0 012.667 10z"></path><path d="M13.333 4.667v8a.667.667 0 01-.666.666H4v1.334h8.667a2 2 0 002-2v-8h-1.334z"></path></g></svg>Copy</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="agents__panel" role="tabpanel" data-agent-panel="1" hidden>
+      <div class="terminal">
+        <div class="ln"><span class="sig">&gt;</span><span>@auth0 add login to this app<span class="cursor">▋</span></span></div>
+        <div class="ln"><span class="sig">L</span><span class="mag">installing @auth0/nextjs-auth0 ✓</span></div>
+        <div class="ln"><span class="sig">L</span><span class="mag">wiring routes + login ✓</span></div>
+        <div class="ln"><span class="sig ok">✓</span><span class="ok">Auth0 is live ∙ ready in 4.2s</span></div>
+      </div>
+      <div class="copyrow">
+        <a class="btn btn--ghost" href="#" style="grid-column:1 / -1; justify-content:center;">Install Auth0 Cursor Plugin</a>
+      </div>
+    </div>
+
+    <div class="agents__panel" role="tabpanel" data-agent-panel="2" hidden>
+      <div class="terminal">
+        <div class="ln"><span class="sig">$</span><span>npx skills add auth0/agent-skills --agent codex<span class="cursor">▋</span></span></div>
+        <div class="ln"><span class="sig">$</span><span>codex</span></div>
+        <div class="ln"><span class="sig">&gt;</span><span>Add Auth0 login to this app</span></div>
+        <div class="ln"><span class="sig">L</span><span class="mag">installing @auth0/nextjs-auth0 ✓</span></div>
+        <div class="ln"><span class="sig">L</span><span class="mag">wiring routes + login ✓</span></div>
+        <div class="ln"><span class="sig ok">✓</span><span class="ok">Auth0 is live ∙ ready in 4.2s</span></div>
+      </div>
+      <div class="copyrow">
+        <button class="copybtn" type="button" data-copy="npx skills add auth0/agent-skills --agent codex">
+          <span class="idx">1</span><span class="cmd">npx skills add auth0/agent-skills --agent codex</span>
+          <span class="lbl"><svg preserveAspectRatio="none" overflow="visible" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" display="block"><g fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.333 1.333V10a2 2 0 002 2H12V3.333a2 2 0 00-2-2H1.333zM2.667 10V2.667H10c.368 0 .667.298.667.666v7.334H3.333A.667.667 0 012.667 10z"></path><path d="M13.333 4.667v8a.667.667 0 01-.666.666H4v1.334h8.667a2 2 0 002-2v-8h-1.334z"></path></g></svg>Copy</span>
+        </button>
+        <button class="copybtn" type="button" data-copy="Add Auth0 login to this app">
+          <span class="idx">2</span><span class="cmd">Add Auth0 login to this app</span>
+          <span class="lbl"><svg preserveAspectRatio="none" overflow="visible" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" display="block"><g fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.333 1.333V10a2 2 0 002 2H12V3.333a2 2 0 00-2-2H1.333zM2.667 10V2.667H10c.368 0 .667.298.667.666v7.334H3.333A.667.667 0 012.667 10z"></path><path d="M13.333 4.667v8a.667.667 0 01-.666.666H4v1.334h8.667a2 2 0 002-2v-8h-1.334z"></path></g></svg>Copy</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="agents__panel" role="tabpanel" data-agent-panel="3" hidden>
+      <div class="terminal">
+        <div class="ln"><span class="sig">$</span><span>npx skills add auth0/agent-skills --agent antigravity<span class="cursor">▋</span></span></div>
+        <div class="ln"><span class="sig">$</span><span>agy</span></div>
+        <div class="ln"><span class="sig">&gt;</span><span>add Auth0 login to this app</span></div>
+        <div class="ln"><span class="sig">L</span><span class="mag">installing @auth0/nextjs-auth0 ✓</span></div>
+        <div class="ln"><span class="sig">L</span><span class="mag">wiring routes + login ✓</span></div>
+        <div class="ln"><span class="sig ok">✓</span><span class="ok">Auth0 is live ∙ ready in 4.2s</span></div>
+      </div>
+      <div class="copyrow">
+        <button class="copybtn" type="button" data-copy="npx skills add auth0/agent-skills --agent antigravity">
+          <span class="idx">1</span><span class="cmd">npx skills add auth0/agent-skills --agent antigravity</span>
+          <span class="lbl"><svg preserveAspectRatio="none" overflow="visible" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" display="block"><g fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.333 1.333V10a2 2 0 002 2H12V3.333a2 2 0 00-2-2H1.333zM2.667 10V2.667H10c.368 0 .667.298.667.666v7.334H3.333A.667.667 0 012.667 10z"></path><path d="M13.333 4.667v8a.667.667 0 01-.666.666H4v1.334h8.667a2 2 0 002-2v-8h-1.334z"></path></g></svg>Copy</span>
+        </button>
+        <button class="copybtn" type="button" data-copy="Add Auth0 login to this app">
+          <span class="idx">2</span><span class="cmd">Add Auth0 login to this app</span>
+          <span class="lbl"><svg preserveAspectRatio="none" overflow="visible" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" display="block"><g fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.333 1.333V10a2 2 0 002 2H12V3.333a2 2 0 00-2-2H1.333zM2.667 10V2.667H10c.368 0 .667.298.667.666v7.334H3.333A.667.667 0 012.667 10z"></path><path d="M13.333 4.667v8a.667.667 0 01-.666.666H4v1.334h8.667a2 2 0 002-2v-8h-1.334z"></path></g></svg>Copy</span>
+        </button>
+      </div>
+    </div>
+
+    <p class="agents__note">98% Agent Experience Score as measured by <a href="#">Auth0 Evals</a> <span aria-hidden="true">→</span></p>
+  </section>
+
+  <!-- ============ customers ============ -->
+  <section class="bento-section shell" data-od-id="customers">
+    <div class="bento__head">
+      <h2 class="t-h2">You’re in great company</h2>
+    </div>
+    <div class="bento">
+      <a class="bento__cell bento__cell--wide" href="#" data-od-id="customer-mclaren"
+         style="background-image:url('assets/images/cdn.auth0.com/mclaren-bg-a9ece0b782.png')">
+        <img class="logo" src="assets/images/cdn.auth0.com/mclaren-cc5d8a6726.png" width="339" height="60" alt="McLaren logo" loading="lazy">
+        <h3>McLaren achieved 100% growth of partner users thanks to the scalability of Auth0</h3>
+      </a>
+
+      <div class="bento__cell" data-od-id="customer-browse-ai">
+        <img class="logo" src="assets/images/cdn.auth0.com/browse-ai-d10c184fbe.png" width="339" height="60" alt="Browse AI logo" loading="lazy">
+        <blockquote>“Our first-of-its-kind platform reduces the time and expense required for data acquisition, allowing organizations to focus on analyzing and leveraging data to drive innovation and success.”</blockquote>
+        <div class="who"><strong>Ardy Naghshineh</strong><span>Founder and CEO</span></div>
+      </div>
+
+      <div class="bento__cell" data-od-id="customer-siemens">
+        <img class="logo" src="assets/images/cdn.auth0.com/siemens-f63c45176d.png" width="339" height="60" alt="Siemens logo" loading="lazy">
+        <blockquote>“Auth0 was an enterprise-ready solution for us, fulfilling all our main criteria: flexibility, customization, security, and centralized management of the whole system. It was a perfect fit.”</blockquote>
+        <div class="who"><strong>Thomas Mueller-Lynch</strong><span>Director Security, Identity &amp; Protection</span></div>
+      </div>
+
+      <div class="bento__cell" data-od-id="customer-jersey-mikes">
+        <img class="logo" src="assets/images/cdn.auth0.com/jersey-mikes-0ba062d2eb.png" width="339" height="60" alt="Jersey Mike's logo" loading="lazy">
+        <blockquote>“Developers who were spending a lot of time working on authentication and all the services around it are now working on features… that benefits our customers in a visible way.”</blockquote>
+        <div class="who"><strong>Scott Scherer</strong><span>CIO</span></div>
+      </div>
+
+      <a class="bento__cell bento__cell--wide" href="#" data-od-id="customer-claas"
+         style="background-image:url('assets/images/cdn.auth0.com/class-bg-5bcff46dfc.png')">
+        <img class="logo" src="assets/images/cdn.auth0.com/claas-d8be3ce265.png" width="339" height="60" alt="CLAAS logo" loading="lazy">
+        <h3>Why CLAAS Trusts Auth0 for robust identity solutions</h3>
+      </a>
+
+      <div class="bento__cell" data-od-id="customer-recidiviz">
+        <img class="logo" src="assets/images/cdn.auth0.com/recidiviz-b9428d242b.png" width="339" height="60" alt="Recidiviz logo" loading="lazy">
+        <blockquote>“We were able to get a working username and password setup going within a couple of hours – at a time when even a couple of hours could be critical to our survival – and it has successfully flexed with us through countless iterations and launches since.”</blockquote>
+        <div class="who"><strong>Joshua Essex</strong><span>Co-Founder and CTO</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ resources ============ -->
+  <section class="resources" data-od-id="resources">
+    <div class="resources__head">
+      <h2 class="t-h2">Read. Watch. Code. More.</h2>
+    </div>
+
+    <div class="segmented" role="tablist" aria-label="Resource topics" style="max-width:753px">
+      <button type="button" role="tab" aria-selected="true" data-res-tab="0">AI Future-Proofing</button>
+      <button type="button" role="tab" aria-selected="false" data-res-tab="1">Identity Security</button>
+      <button type="button" role="tab" aria-selected="false" data-res-tab="2">Product Innovation</button>
+      <button type="button" role="tab" aria-selected="false" data-res-tab="3">Customer Experience</button>
+    </div>
+
+    <div class="rescards" role="tabpanel" data-res-panel="0"></div>
+    <div class="rescards" role="tabpanel" data-res-panel="1" hidden></div>
+    <div class="rescards" role="tabpanel" data-res-panel="2" hidden></div>
+    <div class="rescards" role="tabpanel" data-res-panel="3" hidden></div>
+  </section>
+
+  <!-- ============ final CTA ============ -->
+  <section class="finalcta shell" data-od-id="final-cta">
+    <div class="finalcta__inner">
+      <h2 class="t-display">Get ready to ship<br>at the pace of AI</h2>
+      <div class="finalcta__actions">
+        <a class="btn btn--primary" href="#" data-od-id="final-cta-primary">Start building for free</a>
+        <a class="btn btn--ghost" href="#" data-od-id="final-cta-secondary">Get a demo</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" data-od-id="site-footer">
+  <div class="shell">
+    <div class="footer__cols">
+      <div class="footer__col">
+        <h2>Starting with Auth0</h2>
+        <ul>
+          <li><a href="#">Auth0 CIAM</a></li>
+          <li><a href="#">Intro to IAM</a></li>
+          <li><a href="#">Auth0 platform</a></li>
+          <li><a href="#">Auth0 features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Get started for free</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h2>Documentation</h2>
+        <ul>
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">Quickstarts</a></li>
+          <li><a href="#">APIs</a></li>
+          <li><a href="#">SDK Libraries</a></li>
+          <li><a href="#">Changelog</a></li>
+          <li><a href="#">Deploy on Azure</a></li>
+          <li><a href="#">Deploy on AWS</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h2>Contact &amp; help</h2>
+        <ul>
+          <li><a href="#">Support Center</a></li>
+          <li><a href="#">Get help from the community</a></li>
+          <li><a href="#">Talk to Sales</a></li>
+          <li><a href="#">Talk to an Engineer</a></li>
+          <li><a href="#">Auth0 Status <span aria-hidden="true">↗</span></a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h2>Company &amp; trust</h2>
+        <ul>
+          <li><a href="#">Compliance, Privacy and Security <span aria-hidden="true">↗</span></a></li>
+          <li><a href="#">About us <span aria-hidden="true">↗</span></a></li>
+          <li><a href="#">Careers <span aria-hidden="true">↗</span></a></li>
+          <li><a href="#">Partners</a></li>
+        </ul>
+        <div class="footer__cta" data-od-id="footer-cta">
+          <p>Connect with a sales or engineering expert today</p>
+          <a class="btn btn--primary btn--sm" href="#">Contact Us</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__social">
+      <a href="#" aria-label="Auth0 on X"><svg viewBox="0 0 24 24" aria-hidden="true" width="24" height="24" fill="none"><g><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg></a>
+      <a href="#" aria-label="Auth0 on LinkedIn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.5561 3H4.53738C3.71707 3 2.99988 3.59063 2.99988 4.40156V19.4531C2.99988 20.2687 3.71707 20.9953 4.53738 20.9953H19.5514C20.3764 20.9953 20.9952 20.2641 20.9952 19.4531V4.40156C20.9999 3.59063 20.3764 3 19.5561 3ZM8.578 18H5.99988V9.98438H8.578V18ZM7.378 8.76562H7.35925C6.53425 8.76562 5.99988 8.15156 5.99988 7.38281C5.99988 6.6 6.54831 6 7.39206 6C8.23581 6 8.75144 6.59531 8.77019 7.38281C8.77019 8.15156 8.23581 8.76562 7.378 8.76562ZM17.9999 18H15.4218V13.6172C15.4218 12.5672 15.0468 11.85 14.1139 11.85C13.4014 11.85 12.9796 12.3328 12.7921 12.8016C12.7218 12.9703 12.703 13.2 12.703 13.4344V18H10.1249V9.98438H12.703V11.1C13.078 10.5656 13.6639 9.79688 15.028 9.79688C16.7202 9.79688 17.9999 10.9125 17.9999 13.3172V18Z" fill="currentColor"></path></svg></a>
+      <a href="#" aria-label="Auth0 on GitHub"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.5C6.20156 1.5 1.5 6.32344 1.5 12.2672C1.5 17.025 4.50937 21.0562 8.68125 22.4813C8.74687 22.4953 8.80312 22.5 8.85938 22.5C9.24844 22.5 9.39844 22.2141 9.39844 21.9656C9.39844 21.7078 9.38906 21.0328 9.38437 20.1328C8.99062 20.2219 8.63906 20.2594 8.325 20.2594C6.30469 20.2594 5.84531 18.6891 5.84531 18.6891C5.36719 17.4469 4.67813 17.1141 4.67813 17.1141C3.76406 16.4719 4.67344 16.4531 4.74375 16.4531H4.74844C5.80313 16.5469 6.35625 17.5687 6.35625 17.5687C6.88125 18.4875 7.58437 18.7453 8.2125 18.7453C8.70469 18.7453 9.15 18.5859 9.4125 18.4641C9.50625 17.7703 9.77812 17.2969 10.0781 17.025C7.74844 16.7531 5.29688 15.8297 5.29688 11.7047C5.29688 10.5281 5.70469 9.56719 6.375 8.81719C6.26719 8.54531 5.90625 7.44844 6.47812 5.96719C6.47812 5.96719 6.55312 5.94375 6.7125 5.94375C7.09219 5.94375 7.95 6.08906 9.36563 7.07344C10.2047 6.83437 11.1 6.71719 11.9953 6.7125C12.8859 6.71719 13.7859 6.83437 14.625 7.07344C16.0406 6.08906 16.8984 5.94375 17.2781 5.94375C17.4375 5.94375 17.5125 5.96719 17.5125 5.96719C18.0844 7.44844 17.7234 8.54531 17.6156 8.81719C18.2859 9.57188 18.6937 10.5328 18.6937 11.7047C18.6937 15.8391 16.2375 16.7484 13.8984 17.0156C14.2734 17.3484 14.6109 18.0047 14.6109 19.0078C14.6109 20.4469 14.5969 21.6094 14.5969 21.9609C14.5969 22.2141 14.7422 22.5 15.1312 22.5C15.1875 22.5 15.2531 22.4953 15.3187 22.4813C19.4953 21.0562 22.5 17.0203 22.5 12.2672C22.5 6.32344 17.7984 1.5 12 1.5Z" fill="currentColor"></path></svg></a>
+    </div>
+
+    <div class="footer__legal">
+      <p>©2026 Okta, Inc. All Rights Reserved.</p>
+      <nav aria-label="Legal">
+        <a href="#">Status</a><span class="dot" aria-hidden="true">•</span>
+        <a href="#">Legal</a><span class="dot" aria-hidden="true">•</span>
+        <a href="#">Privacy</a><span class="dot" aria-hidden="true">•</span>
+        <a href="#">Terms</a><span class="dot" aria-hidden="true">•</span>
+        <a href="#">Your Privacy Choices</a>
+      </nav>
+      <div class="right">
+        <img src="assets/images/cdn.auth0.com/ccpa-8bb6cbb700.svg" width="300" height="140" alt="CCPA opt-out icon">
+        <span class="lang">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 12H22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C14.5013 4.73835 15.9228 8.29203 16 12C15.9228 15.708 14.5013 19.2616 12 22C9.49872 19.2616 8.07725 15.708 8 12C8.07725 8.29203 9.49872 4.73835 12 2V2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          <label class="visually-hidden" for="lang-footer">Language</label>
+          <select id="lang-footer">
+            <option>Deutsch</option>
+            <option selected>English</option>
+            <option>Français</option>
+            <option>Español</option>
+            <option>Português</option>
+            <option>日本語</option>
+          </select>
+          <span class="lang__chevron" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" data-toast role="status" aria-live="polite"></div>
+
+<script>window.__A0_ICONS={doc:'<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9.75 0.75C9.94891 0.75 10.1396 0.829074 10.2803 0.969727L15.5303 6.21973C15.6709 6.36038 15.75 6.55109 15.75 6.75V15C15.75 16.2426 14.7426 17.25 13.5 17.25H4.5C3.25736 17.25 2.25 16.2426 2.25 15V3C2.25 1.75736 3.25736 0.75 4.5 0.75H9.75ZM4.5 2.25C4.08579 2.25 3.75 2.58579 3.75 3V15C3.75 15.4142 4.08579 15.75 4.5 15.75H13.5C13.9142 15.75 14.25 15.4142 14.25 15V7.5H9.75C9.33579 7.5 9 7.16421 9 6.75V2.25H4.5ZM12.75 14.25H5.25V12.75H12.75V14.25ZM12.75 11.25H5.25V9.75H12.75V11.25ZM7.5 8.25H5.25V6.75H7.5V8.25ZM10.5 6H13.1895L10.5 3.31055V6Z" fill="currentColor"></path></svg>',play:'<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M15 2.25C16.2426 2.25 17.25 3.25736 17.25 4.5V13.5C17.25 14.7426 16.2426 15.75 15 15.75H3C1.75736 15.75 0.75 14.7426 0.75 13.5V4.5C0.75 3.25736 1.75736 2.25 3 2.25H15ZM3 3.75C2.58579 3.75 2.25 4.08579 2.25 4.5V13.5C2.25 13.9142 2.58579 14.25 3 14.25H15C15.4142 14.25 15.75 13.9142 15.75 13.5V4.5C15.75 4.08579 15.4142 3.75 15 3.75H3ZM6 6.60645C6.00022 5.77037 6.88004 5.22675 7.62793 5.60059L12.415 7.99414C13.2435 8.40888 13.2435 9.59113 12.415 10.0059L7.62793 12.3994C6.88004 12.7732 6.00022 12.2296 6 11.3936V6.60645ZM7.5 10.7861L11.0732 9L7.5 7.21387V10.7861Z" fill="currentColor"></path></svg>'};</script>
+<script src="assets/site.js"></script>
+</body>
+</html>

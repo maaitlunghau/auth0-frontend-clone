@@ -1,0 +1,579 @@
+{
+ "menus": [
+  {
+   "label": "Build",
+   "columns": [
+    {
+     "title": "Documentation",
+     "items": [
+      {
+       "text": "AI Identity Docs",
+       "href": "/ai/docs/intro/overview",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "APIs",
+       "href": "/docs/api",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "SDKs",
+       "href": "/docs/libraries",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Events Catalog",
+       "href": "/docs/events",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Changelog",
+       "href": "/changelog",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Code Samples",
+       "href": "https://developer.auth0.com/resources/code-samples",
+       "icon": "",
+       "external": true,
+       "sub": []
+      },
+      {
+       "text": "Guides",
+       "href": "https://developer.auth0.com/resources/guides",
+       "icon": "",
+       "external": true,
+       "sub": []
+      },
+      {
+       "text": "Explore Auth0 Docs",
+       "href": "https://auth0.com/docs",
+       "icon": "",
+       "external": false,
+       "sub": []
+      }
+     ]
+    },
+    {
+     "title": "Quickstarts",
+     "items": [
+      {
+       "text": "React",
+       "href": "/docs/quickstart/spa/react/interactive",
+       "icon": "react.fc0387fd.png",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Next.js",
+       "href": "/docs/quickstart/webapp/nextjs",
+       "icon": "nextjs.96ac44aa.png",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Angular",
+       "href": "/docs/quickstart/spa/angular",
+       "icon": "angular.26e2a9aa.png",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Vue.js",
+       "href": "/docs/quickstart/spa/vuejs",
+       "icon": "vue.b645b0be.png",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "React Native",
+       "href": "/docs/quickstart/native/react-native",
+       "icon": "react-native.f69cfe0c.png",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "iOS / Swift",
+       "href": "/docs/quickstart/native/ios-swift",
+       "icon": "swift.864d5dd8.png",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Build in 30+ of your favorite languages & frameworks",
+       "href": "",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "View all Quickstarts",
+       "href": "/docs/quickstarts",
+       "icon": "",
+       "external": false,
+       "sub": []
+      }
+     ]
+    },
+    {
+     "title": "Developer Tools",
+     "items": [
+      {
+       "text": "JWT Decoder↗",
+       "href": "https://www.jwt.io",
+       "icon": "jwt.a6f0ac2d.png",
+       "external": true,
+       "sub": []
+      },
+      {
+       "text": "Webauthn Demo↗",
+       "href": "https://www.webauthn.me",
+       "icon": "webauthn.8573a203.png",
+       "external": true,
+       "sub": []
+      },
+      {
+       "text": "OIDC Playground↗",
+       "href": "https://www.openidconnect.net",
+       "icon": "oidc.523cf6d9.png",
+       "external": true,
+       "sub": []
+      },
+      {
+       "text": "SAML Tool↗",
+       "href": "https://www.samltool.io",
+       "icon": "saml.5323dd95.png",
+       "external": true,
+       "sub": []
+      },
+      {
+       "text": "Passkeys Playground↗",
+       "href": "https://www.webauthn.me",
+       "icon": "passkey.f356236c.png",
+       "external": true,
+       "sub": []
+      },
+      {
+       "text": "Auth0 Deploy CLI↗",
+       "href": "https://github.com/auth0/auth0-cli",
+       "icon": "auth0-deploy.bdaab92b.png",
+       "external": true,
+       "sub": []
+      },
+      {
+       "text": "Auth0 Status↗",
+       "href": "https://status.auth0.com/",
+       "icon": "auth0-status.6249ed03.png",
+       "external": true,
+       "sub": []
+      }
+     ]
+    },
+    {
+     "title": "Connect",
+     "items": [
+      {
+       "text": "Community",
+       "href": "https://community.auth0.com/",
+       "icon": "",
+       "external": true,
+       "sub": []
+      },
+      {
+       "text": "Knowledge Base",
+       "href": "https://support.auth0.com/center/s/knowledge",
+       "icon": "",
+       "external": true,
+       "sub": []
+      },
+      {
+       "text": "Support Center",
+       "href": "https://support.auth0.com/center/s",
+       "icon": "",
+       "external": true,
+       "sub": []
+      },
+      {
+       "text": "Developer Center",
+       "href": "https://developer.auth0.com",
+       "icon": "",
+       "external": true,
+       "sub": []
+      },
+      {
+       "text": "Marketplace",
+       "href": "https://marketplace.auth0.com",
+       "icon": "",
+       "external": true,
+       "sub": []
+      },
+      {
+       "text": "Events",
+       "href": "https://developer.auth0.com/events",
+       "icon": "",
+       "external": true,
+       "sub": [
+        "Camp AI for Devs↗",
+        "Join us at Vercel Ship↗",
+        "Auth0 at MCP Dev Summit↗"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Product",
+   "columns": [
+    {
+     "title": "AI IDENTITY",
+     "items": [
+      {
+       "text": "B2B",
+       "href": "http://auth0.com/ai-identity/b2b",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Commerce",
+       "href": "http://auth0.com/ai-identity/commerce",
+       "icon": "",
+       "external": false,
+       "sub": []
+      }
+     ]
+    },
+    {
+     "title": "CUSTOMER IDENTITY",
+     "items": [
+      {
+       "text": "Universal Login",
+       "href": "/features/universal-login",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Passwordless",
+       "href": "/features/passwordless",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "User Management",
+       "href": "/platform/user-management",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Authentication",
+       "href": "/platform/authentication",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Breached Passwords",
+       "href": "/features/breached-passwords",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Embedded Login",
+       "href": "https://auth0.com/features/embedded-login",
+       "icon": "",
+       "external": false,
+       "sub": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Solutions",
+   "columns": [
+    {
+     "title": "USE CASES",
+     "items": [
+      {
+       "text": "Enterprise",
+       "href": "/enterprise",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "B2B SaaS",
+       "href": "/b2b-saas",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "B2B Connect",
+       "href": "/enterprise/b2b-connect",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "B2C",
+       "href": "/b2c-customer-identity-management",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Startups",
+       "href": "/startups",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Nonprofits",
+       "href": "/nonprofits",
+       "icon": "",
+       "external": false,
+       "sub": []
+      }
+     ]
+    },
+    {
+     "title": "WHO IT’S FOR",
+     "items": [
+      {
+       "text": "Financial Services",
+       "href": "/financial-services",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Healthcare",
+       "href": "/healthcare",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Retail",
+       "href": "/retail",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Partners",
+       "href": "/partners",
+       "icon": "",
+       "external": false,
+       "sub": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Library",
+   "columns": [
+    {
+     "title": "EXPLORE BY TOPIC",
+     "items": [
+      {
+       "text": "AI",
+       "href": "/blog/ai",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Developers",
+       "href": "/blog/developers",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Identity & Security",
+       "href": "/blog/identity-and-security",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Business",
+       "href": "/blog/business",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Engineering",
+       "href": "/blog/engineering",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Announcements",
+       "href": "/blog/announcements",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Visit the blog",
+       "href": "/blog",
+       "icon": "",
+       "external": false,
+       "sub": []
+      }
+     ]
+    },
+    {
+     "title": "EXPLORE BY TYPE",
+     "items": [
+      {
+       "text": "Ebooks",
+       "href": "/resources/ebooks",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Videos",
+       "href": "/resources/videos",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Podcasts",
+       "href": "/resources/podcasts",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Webinars",
+       "href": "/resources/webinars",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Upcoming Webinars",
+       "href": "/resources/upcoming-webinars",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Whitepapers",
+       "href": "/resources/whitepapers",
+       "icon": "",
+       "external": false,
+       "sub": []
+      },
+      {
+       "text": "Browse resources",
+       "href": "/resources",
+       "icon": "",
+       "external": false,
+       "sub": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Pricing",
+   "columns": []
+  },
+  {
+   "label": "Pricing",
+   "columns": []
+  }
+ ],
+ "ticker": [
+  {
+   "text": "Transform identity into a growth lever with Identity Conversion Suite.Learn more →",
+   "href": "https://auth0.com/b2c-customer-identity-management"
+  },
+  {
+   "text": "Build in 30+ of your favorite languages & frameworks",
+   "href": ""
+  },
+  {
+   "text": "WHITEPAPERBuilding Secure AI Agents",
+   "href": "https://auth0.com/resources/whitepapers/building-powerful-and-secure-ai-agents"
+  },
+  {
+   "text": "WHITEPAPERBuilding Secure AI Agents",
+   "href": "https://auth0.com/resources/whitepapers/building-powerful-and-secure-ai-agents"
+  },
+  {
+   "text": "Multifactor Authentication",
+   "href": "/features/multifactor-authentication"
+  },
+  {
+   "text": "Fine-Grained Authorization",
+   "href": "/fine-grained-authorization"
+  },
+  {
+   "text": "Customer Identity Trends Report",
+   "href": "/customer-identity-trends-report"
+  },
+  {
+   "text": "WHITEPAPERFrom Prototype to Production",
+   "href": "https://auth0.com/resources/whitepapers/from-prototype-to-production"
+  }
+ ],
+ "right": [
+  {
+   "tag": "a",
+   "text": "Login",
+   "href": "/api/auth/login?redirectTo=dashboard"
+  },
+  {
+   "tag": "a",
+   "text": "Sign up",
+   "href": "/signup?place=header&type=button&text=sign%20up"
+  },
+  {
+   "tag": "a",
+   "text": "Login",
+   "href": "/api/auth/login?redirectTo=dashboard"
+  },
+  {
+   "tag": "a",
+   "text": "Let's connect",
+   "href": "/contact-us?place=header&type=button&text=let's%20connect"
+  },
+  {
+   "tag": "a",
+   "text": "Sign up",
+   "href": "/signup?place=header&type=button&text=sign%20up"
+  },
+  {
+   "tag": "a",
+   "text": "Let's connect",
+   "href": "/contact-us?place=header&type=button&text=let's%20connect"
+  }
+ ]
+}

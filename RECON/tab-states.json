@@ -1,0 +1,427 @@
+{
+ "lifecycle": [
+  {
+   "label": "B2C",
+   "missing": true
+  },
+  {
+   "label": "B2B",
+   "missing": true
+  }
+ ],
+ "lifecycleStage": [
+  {
+   "label": "Sign up",
+   "missing": true
+  },
+  {
+   "label": "Login",
+   "missing": true
+  },
+  {
+   "label": "Checkout",
+   "missing": true
+  },
+  {
+   "label": "Agentic experience",
+   "missing": true
+  }
+ ],
+ "industries": [
+  {
+   "label": "Retail",
+   "text": "Built for industries that can’t afford to slow down Identity complexity shouldn’t be what holds your industry back. Auth0 removes the overhead so your teams can focus on the innovation that drives growth. Retail Financial Services Healthcare Tech & Media Manufacturing Retail Modernize omnichannel retail journeys to foster loyalty, boost conversion, and better secure every shopper—from human to AI. Learn more →",
+   "imgs": [
+    {
+     "src": "industries/retail.png",
+     "alt": ""
+    },
+    {
+     "src": "tablist/logo-jersey-mikes.png",
+     "alt": "Jersey Mike's"
+    },
+    {
+     "src": "tablist/image_5148.png",
+     "alt": "Foodstuffs"
+    },
+    {
+     "src": "tablist/image_5149.png",
+     "alt": "Dunelm"
+    },
+    {
+     "src": "industries/fin-serv.png",
+     "alt": ""
+    },
+    {
+     "src": "logos/logo-moniflo.png",
+     "alt": "Moniflo"
+    },
+    {
+     "src": "logos/logo-moneyfarm.png",
+     "alt": "Moneyfarm"
+    },
+    {
+     "src": "logos/logo-octus.png",
+     "alt": "Octus"
+    },
+    {
+     "src": "industries/healthcare.png",
+     "alt": ""
+    },
+    {
+     "src": "industries/tech-media.png",
+     "alt": ""
+    },
+    {
+     "src": "logos/logo-jamf.png",
+     "alt": "Jamf"
+    },
+    {
+     "src": "logos/logo-vialtopartners.png",
+     "alt": "Vialto Partners"
+    }
+   ],
+   "code": []
+  },
+  {
+   "label": "Financial Services",
+   "text": "Built for industries that can’t afford to slow down Identity complexity shouldn’t be what holds your industry back. Auth0 removes the overhead so your teams can focus on the innovation that drives growth. Retail Financial Services Healthcare Tech & Media Manufacturing Financial Services Reduce fraud, streamline onboarding, and ship governed AI agents with more secure, personalized financial experiences. Learn more →",
+   "imgs": [
+    {
+     "src": "industries/retail.png",
+     "alt": ""
+    },
+    {
+     "src": "tablist/logo-jersey-mikes.png",
+     "alt": "Jersey Mike's"
+    },
+    {
+     "src": "tablist/image_5148.png",
+     "alt": "Foodstuffs"
+    },
+    {
+     "src": "tablist/image_5149.png",
+     "alt": "Dunelm"
+    },
+    {
+     "src": "industries/fin-serv.png",
+     "alt": ""
+    },
+    {
+     "src": "logos/logo-moniflo.png",
+     "alt": "Moniflo"
+    },
+    {
+     "src": "logos/logo-moneyfarm.png",
+     "alt": "Moneyfarm"
+    },
+    {
+     "src": "logos/logo-octus.png",
+     "alt": "Octus"
+    },
+    {
+     "src": "industries/healthcare.png",
+     "alt": ""
+    },
+    {
+     "src": "industries/tech-media.png",
+     "alt": ""
+    },
+    {
+     "src": "logos/logo-jamf.png",
+     "alt": "Jamf"
+    },
+    {
+     "src": "logos/logo-vialtopartners.png",
+     "alt": "Vialto Partners"
+    }
+   ],
+   "code": []
+  },
+  {
+   "label": "Healthcare",
+   "text": "Built for industries that can’t afford to slow down Identity complexity shouldn’t be what holds your industry back. Auth0 removes the overhead so your teams can focus on the innovation that drives growth. Retail Financial Services Healthcare Tech & Media Manufacturing Healthcare Power patient, caregiver, agent, and clinician access across your systems—ship faster without rebuilding identity. Learn more →",
+   "imgs": [
+    {
+     "src": "industries/retail.png",
+     "alt": ""
+    },
+    {
+     "src": "tablist/logo-jersey-mikes.png",
+     "alt": "Jersey Mike's"
+    },
+    {
+     "src": "tablist/image_5148.png",
+     "alt": "Foodstuffs"
+    },
+    {
+     "src": "tablist/image_5149.png",
+     "alt": "Dunelm"
+    },
+    {
+     "src": "industries/fin-serv.png",
+     "alt": ""
+    },
+    {
+     "src": "logos/logo-moniflo.png",
+     "alt": "Moniflo"
+    },
+    {
+     "src": "logos/logo-moneyfarm.png",
+     "alt": "Moneyfarm"
+    },
+    {
+     "src": "logos/logo-octus.png",
+     "alt": "Octus"
+    },
+    {
+     "src": "industries/healthcare.png",
+     "alt": ""
+    },
+    {
+     "src": "industries/tech-media.png",
+     "alt": ""
+    },
+    {
+     "src": "logos/logo-jamf.png",
+     "alt": "Jamf"
+    },
+    {
+     "src": "logos/logo-vialtopartners.png",
+     "alt": "Vialto Partners"
+    }
+   ],
+   "code": []
+  },
+  {
+   "label": "Tech & Media",
+   "text": "Built for industries that can’t afford to slow down Identity complexity shouldn’t be what holds your industry back. Auth0 removes the overhead so your teams can focus on the innovation that drives growth. Retail Financial Services Healthcare Tech & Media Manufacturing Technology, Media & Entertainment, & Telecommunication Build, secure, and seamlessly orchestrate identity with less time and effort. Meet customers’ expectations for highly tailored, available, convenient, and trustworthy experiences.",
+   "imgs": [
+    {
+     "src": "industries/retail.png",
+     "alt": ""
+    },
+    {
+     "src": "tablist/logo-jersey-mikes.png",
+     "alt": "Jersey Mike's"
+    },
+    {
+     "src": "tablist/image_5148.png",
+     "alt": "Foodstuffs"
+    },
+    {
+     "src": "tablist/image_5149.png",
+     "alt": "Dunelm"
+    },
+    {
+     "src": "industries/fin-serv.png",
+     "alt": ""
+    },
+    {
+     "src": "logos/logo-moniflo.png",
+     "alt": "Moniflo"
+    },
+    {
+     "src": "logos/logo-moneyfarm.png",
+     "alt": "Moneyfarm"
+    },
+    {
+     "src": "logos/logo-octus.png",
+     "alt": "Octus"
+    },
+    {
+     "src": "industries/healthcare.png",
+     "alt": ""
+    },
+    {
+     "src": "industries/tech-media.png",
+     "alt": ""
+    },
+    {
+     "src": "logos/logo-jamf.png",
+     "alt": "Jamf"
+    },
+    {
+     "src": "logos/logo-vialtopartners.png",
+     "alt": "Vialto Partners"
+    }
+   ],
+   "code": []
+  },
+  {
+   "label": "Manufacturing",
+   "text": "Built for industries that can’t afford to slow down Identity complexity shouldn’t be what holds your industry back. Auth0 removes the overhead so your teams can focus on the innovation that drives growth. Retail Financial Services Healthcare Tech & Media Manufacturing Manufacturing Power smart IoT and AI innovation on the factory floor through more secure identity for your customers and supply chain.",
+   "imgs": [
+    {
+     "src": "industries/retail.png",
+     "alt": ""
+    },
+    {
+     "src": "tablist/logo-jersey-mikes.png",
+     "alt": "Jersey Mike's"
+    },
+    {
+     "src": "tablist/image_5148.png",
+     "alt": "Foodstuffs"
+    },
+    {
+     "src": "tablist/image_5149.png",
+     "alt": "Dunelm"
+    },
+    {
+     "src": "industries/fin-serv.png",
+     "alt": ""
+    },
+    {
+     "src": "logos/logo-moniflo.png",
+     "alt": "Moniflo"
+    },
+    {
+     "src": "logos/logo-moneyfarm.png",
+     "alt": "Moneyfarm"
+    },
+    {
+     "src": "logos/logo-octus.png",
+     "alt": "Octus"
+    },
+    {
+     "src": "industries/healthcare.png",
+     "alt": ""
+    },
+    {
+     "src": "industries/tech-media.png",
+     "alt": ""
+    },
+    {
+     "src": "logos/logo-jamf.png",
+     "alt": "Jamf"
+    },
+    {
+     "src": "logos/logo-vialtopartners.png",
+     "alt": "Vialto Partners"
+    }
+   ],
+   "code": []
+  }
+ ],
+ "code": [
+  {
+   "label": "Claude",
+   "text": "Integrate auth into any stack in minutes Use our 30+ SDKs and Quickstarts to integrate auth into any language or framework. Claude Cursor Codex Antigravity $ claude $ /plugin install auth0@claude-plugins-official ✓ detected > Add Auth0 login to this app L installing @auth0/nextjs-auth0 ✓ L wiring routes + login ✓ ✓ Auth0 is live ∙ ready in 4.2s 1 /plugin install auth0@claude-plugins-official Copy 2 Add Auth0 login to this app Copy 98% Agent Experience Score as measured by Auth0 Evals",
+   "imgs": [],
+   "code": []
+  },
+  {
+   "label": "Cursor",
+   "text": "Integrate auth into any stack in minutes Use our 30+ SDKs and Quickstarts to integrate auth into any language or framework. Claude Cursor Codex Antigravity > @auth0 add login to th▋ L installing @auth0/nextjs-auth0 ✓ L wiring routes + login ✓ ✓ Auth0 is live ∙ ready in 4.2s Install Auth0 Cursor Plugin 98% Agent Experience Score as measured by Auth0 Evals",
+   "imgs": [],
+   "code": []
+  },
+  {
+   "label": "Codex",
+   "text": "Integrate auth into any stack in minutes Use our 30+ SDKs and Quickstarts to integrate auth into any language or framework. Claude Cursor Codex Antigravity $ npx skills add auth0/ag▋ $ codex > Add Auth0 login to this app L installing @auth0/nextjs-auth0 ✓ L wiring routes + login ✓ ✓ Auth0 is live ∙ ready in 4.2s 1 npx skills add auth0/agent-skills --agent codex Copy 2 Add Auth0 login to this app Copy 98% Agent Experience Score as measured by Auth0 Evals",
+   "imgs": [],
+   "code": []
+  },
+  {
+   "label": "Antigravity",
+   "text": "Integrate auth into any stack in minutes Use our 30+ SDKs and Quickstarts to integrate auth into any language or framework. Claude Cursor Codex Antigravity $ npx skills add auth0/a▋ $ agy > add Auth0 login to this app L installing @auth0/nextjs-auth0 ✓ L wiring routes + login ✓ ✓ Auth0 is live ∙ ready in 4.2s 1 npx skills add auth0/agent-skills --agent antigravity Copy 2 Add Auth0 login to this app Copy 98% Agent Experience Score as measured by Auth0 Evals",
+   "imgs": [],
+   "code": []
+  }
+ ],
+ "resources": [
+  {
+   "label": "AI Future-Proofing",
+   "text": "Read. Watch. Code. More. AI Future-Proofing Identity Security Product Innovation Customer Experience WHITEPAPER When AI moves faster than your identity layer Download this guide to explore a modern framework for managing agentic identity at scale—enabling your teams to build faster and ship AI capabilities without roadblocks. Download the whitepaper WHITEPAPER The AI-Ready Identity Framework This datasheet shows you how to implement a secure identity framework for MCP so you can ship AI-ready products faster. Download the whitepaper WEBINAR AI Identity in 2026: The mid year reality check As adoption accelerates, executives face a familiar paradox: how to manage AI identity security without slowing down growth - all whilst balancing speed and ROI. Watch the webinar WHITEPAPER Developer blueprint for production-ready apps and AI agents This whitepaper outlines practical identity patterns for building production-ready apps and AI agents, with authentication and authorization kept reusable, auditable, and out of app code. Learn more",
+   "imgs": [
+    {
+     "src": "53544a63b50c92ca890173f339ae5f43/Auth0_Template-NoImage_01__1_.png?w=600&q=100",
+     "alt": ""
+    },
+    {
+     "src": "921d63ad046d86f0f8417226966cd049/Auth0_Template-NoImage_02__1_.png?w=600&q=100",
+     "alt": ""
+    },
+    {
+     "src": "3a84aedf0e59931789515be9481718cb/Auth0_Template-NoImage_01__2_.png?w=600&q=100",
+     "alt": ""
+    },
+    {
+     "src": "7525a50d1a99fd424843f4632b04cfbf/Auth0_Template-NoImage_02__3_.png?w=600&q=100",
+     "alt": ""
+    }
+   ],
+   "code": []
+  },
+  {
+   "label": "Identity Security",
+   "text": "Read. Watch. Code. More. AI Future-Proofing Identity Security Product Innovation Customer Experience WHITEPAPER Identity Security 101 Checklist This checklist assesses readiness for adaptive authentication, real-time session monitoring, and centralized identity threat visibility and response. Ship amazing products without compromising security or conversion. Download the whitepaper WHITEPAPER Securing AI Agents: The New Identity Challenge This whitepaper breaks down what GenAI changes about Identity and what security, product, and development teams must rethink to stay secure and scalable. Download the whitepaper WEBINAR From login to action — Protect every user, agent, and interaction Learn how to stop bots without blocking real users, shut down credential based attacks, and protect sensitive customer interactions after login. Watch the webinar WEBINAR Secure production-ready AI Agents with Auth0 To scale, AI agents must be secure by design, and that starts with Identity. Join us as we explore why getting AI right requires getting identity right. Watch the webinar",
+   "imgs": [
+    {
+     "src": "9852cc260a5339139e663c9beb87d74e/Auth0_Template-NoImage_01__3_.png?w=600&q=100",
+     "alt": ""
+    },
+    {
+     "src": "64bbb46a15178877fccb27e0cfb05003/Auth0_Template-NoImage_02__4_.png?w=600&q=100",
+     "alt": ""
+    },
+    {
+     "src": "309d9e9c1058132b9672b2571ab3a89b/Auth0_Template-NoImage_01__1_.png?w=600&q=100",
+     "alt": ""
+    },
+    {
+     "src": "2c92bfc431ae7730cb286a5f4633259a/Auth0_Template-NoImage_02__1_.png?w=600&q=100",
+     "alt": ""
+    }
+   ],
+   "code": []
+  },
+  {
+   "label": "Product Innovation",
+   "text": "Read. Watch. Code. More. AI Future-Proofing Identity Security Product Innovation Customer Experience WHITEPAPER From prototype to production: A guide to shipping AI agents faster This whitepaper shows you how to build a centralized identity foundation that handles both humans and automated agents so you can launch faster. Download the whitepaper VIDEO Auth0 introduction Using Auth0, developers can connect any application written in any language or stack, and define the external identity providers, as well as integrations, that they want to use. Watch the video WHITEPAPER How teams actually get AI agents into production Most teams don’t get stuck on the model—they get stuck on everything around it. Identity, permissions, and the work required to make agents operate safely across systems. This webinar goes from local experiments to agents taking actions. Watch the webinar WHITEPAPER Fine-Grained Authorization (FGA): A technical primer Our whitepaper provides an in-depth exploration of FGA, tailored for technical professionals seeking to deepen their understanding and implementation skills. Download the whitepaper",
+   "imgs": [
+    {
+     "src": "c67674df380663d1d85af9846900e219/Auth0_Template-NoImage_01.png?w=600&q=100",
+     "alt": ""
+    },
+    {
+     "src": "a079d211dfd8e432bac4fe765f2207ca/Auth0_Template-NoImage_02.png?w=600&q=100",
+     "alt": ""
+    },
+    {
+     "src": "40e554da6a66472cab6e3807fd31f0a6/Auth0_Template-NoImage_01__1_.png?w=600&q=100",
+     "alt": ""
+    },
+    {
+     "src": "afbbd4d3913d2a92af773e349b5ed6ae/Auth0_Template-NoImage_02__1_.png?w=600&q=100",
+     "alt": ""
+    }
+   ],
+   "code": []
+  },
+  {
+   "label": "Customer Experience",
+   "text": "Read. Watch. Code. More. AI Future-Proofing Identity Security Product Innovation Customer Experience PODCAST Unlock the future of customer trust & AI Our Customer Identity Trends Report 2025 is your essential guide. Get the executive summary in a concise 10-minute audio format. Listen to the podcast WHITEPAPER Accelerating AI in retail: Building identity for agent-driven experiences This whitepaper explores how to securely manage complex machine-to-machine connections, prevent unauthorized data access, and scale your AI experiences without slowing down development. Download the whitepaper EBOOK How to power consistent, multi-brand, omnichannel experiences This guide discusses the challenges businesses face in delivering seamless customer experiences across multiple brands and channels, while maintaining consistent security and user data management practices. Download the e-book WEBINAR Passwordless 101: Building high-conversion login flows This webinar focuses entirely on reducing login friction to drive conversion. We’ll cover how passwordless has evolved, and take a look at the configuration, the admin console, and the seamless end-user experience. Watch the webinar",
+   "imgs": [
+    {
+     "src": "17fb052f4713800f148f19a3873488ce/Auth0_Template-NoImage_01__2_.png?w=600&q=100",
+     "alt": ""
+    },
+    {
+     "src": "ffb857a66f12a0360c0f5b5fc6f09792/Auth0_Template-NoImage_02__2_.png?w=600&q=100",
+     "alt": ""
+    },
+    {
+     "src": "f953de9a08e8b455da92064a3d6e0bf3/Auth0_Template-NoImage_01__3_.png?w=600&q=100",
+     "alt": ""
+    },
+    {
+     "src": "2ca7291f26e36a6cc412ae2b91b46f36/Auth0_Template-NoImage_02__3_.png?w=600&q=100",
+     "alt": ""
+    }
+   ],
+   "code": []
+  }
+ ]
+}

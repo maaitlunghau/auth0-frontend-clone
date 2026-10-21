@@ -1,0 +1,975 @@
+{
+  "label": "original",
+  "url": "https://auth0.com",
+  "capturedAt": "2026-10-08T16:58:36.400Z",
+  "maxPages": 10,
+  "maxDepth": 1,
+  "allowSubdomains": false,
+  "routes": [
+    {
+      "url": "https://auth0.com",
+      "from": "",
+      "depth": 0,
+      "status": 200,
+      "title": "Secure AI Agent & User Authentication | Auth0",
+      "lang": "en",
+      "metaDescription": "Secure users, AI agents, and more with Auth0, an easy-to-implement, scalable, and adaptable authentication and authorization platform.",
+      "h1": [
+        "Convert, protect, & personalize every journey"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Convert, protect, & personalize every journey"
+        },
+        {
+          "tag": "h2",
+          "text": "Identity for the entire customer lifecycle"
+        },
+        {
+          "tag": "h3",
+          "text": "Built for what you're building"
+        },
+        {
+          "tag": "h3",
+          "text": "Ship AI agents faster, without losing control"
+        },
+        {
+          "tag": "h3",
+          "text": "Drive sign-ups with frictionless authentication"
+        },
+        {
+          "tag": "h3",
+          "text": "Build enterprise-ready auth without the headache"
+        },
+        {
+          "tag": "h3",
+          "text": "Secure machine identities & APIs at scale"
+        },
+        {
+          "tag": "h2",
+          "text": "Built for industries that can’t afford to slow down"
+        },
+        {
+          "tag": "h3",
+          "text": "Retail"
+        },
+        {
+          "tag": "h3",
+          "text": "Financial Services"
+        },
+        {
+          "tag": "h3",
+          "text": "Healthcare"
+        },
+        {
+          "tag": "h3",
+          "text": "Technology, Media & Entertainment, & Telecommunication"
+        },
+        {
+          "tag": "h3",
+          "text": "Manufacturing"
+        },
+        {
+          "tag": "h2",
+          "text": "Integrate auth into any stack in minutes"
+        },
+        {
+          "tag": "h2",
+          "text": "You’re in great company"
+        },
+        {
+          "tag": "h3",
+          "text": "McLaren achieved 100% growth of partner users thanks to the scalability of Auth0"
+        },
+        {
+          "tag": "h3",
+          "text": "Why CLAAS Trusts Auth0 for robust identity solutions"
+        },
+        {
+          "tag": "h3",
+          "text": "McLaren achieved 100% growth of partner users thanks to the scalability of Auth0"
+        },
+        {
+          "tag": "h3",
+          "text": "Why CLAAS Trusts Auth0 for robust identity solutions"
+        },
+        {
+          "tag": "h2",
+          "text": "Read. Watch. Code. More."
+        },
+        {
+          "tag": "h3",
+          "text": "When AI moves faster than your identity layer"
+        },
+        {
+          "tag": "h3",
+          "text": "The AI-Ready Identity Framework"
+        },
+        {
+          "tag": "h3",
+          "text": "AI Identity in 2026: The mid year reality check"
+        },
+        {
+          "tag": "h3",
+          "text": "Developer blueprint for production-ready apps and AI agents"
+        },
+        {
+          "tag": "h3",
+          "text": "When AI moves faster than your identity layer"
+        },
+        {
+          "tag": "h3",
+          "text": "The AI-Ready Identity Framework"
+        },
+        {
+          "tag": "h3",
+          "text": "AI Identity in 2026: The mid year reality check"
+        },
+        {
+          "tag": "h3",
+          "text": "Developer blueprint for production-ready apps and AI agents"
+        },
+        {
+          "tag": "h3",
+          "text": "When AI moves faster than your identity layer"
+        },
+        {
+          "tag": "h3",
+          "text": "The AI-Ready Identity Framework"
+        },
+        {
+          "tag": "h3",
+          "text": "AI Identity in 2026: The mid year reality check"
+        },
+        {
+          "tag": "h3",
+          "text": "Developer blueprint for production-ready apps and AI agents"
+        },
+        {
+          "tag": "h2",
+          "text": "Get ready to ship at the pace of AI"
+        }
+      ],
+      "counts": {
+        "links": 249,
+        "images": 153,
+        "canvas": 0,
+        "forms": 1,
+        "buttons": 39
+      },
+      "linkCount": 249,
+      "screenshot": "screenshots/auth0.com-8283b30d.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://auth0.com/ai-identity/b2b",
+      "from": "https://auth0.com",
+      "depth": 1,
+      "status": 200,
+      "title": "AI Identity for B2B | Auth0",
+      "lang": "en",
+      "metaDescription": "Secure and scale agentic SaaS with Auth0 AI identity. Protect B2B workflows, enforce fine-grained agent authorization, and prevent cost overruns.",
+      "h1": [
+        "Scale personalized B2B agentic experiences"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Scale personalized B2B agentic experiences"
+        },
+        {
+          "tag": "h2",
+          "text": "Control agent execution across connected systems"
+        },
+        {
+          "tag": "h2",
+          "text": "Adapt your business workflows for the agentic era"
+        },
+        {
+          "tag": "h3",
+          "text": "Secure native autonomous agents"
+        },
+        {
+          "tag": "h3",
+          "text": "Connect third-party AI agents"
+        },
+        {
+          "tag": "h2",
+          "text": "We work where you work, with all your tools"
+        },
+        {
+          "tag": "h2",
+          "text": "Equip your agents with enterprise controls"
+        },
+        {
+          "tag": "h3",
+          "text": "Token Vault"
+        },
+        {
+          "tag": "h3",
+          "text": "Auth for MCP"
+        },
+        {
+          "tag": "h3",
+          "text": "Auth0 Agent Gateway"
+        },
+        {
+          "tag": "h2",
+          "text": "Learn more"
+        },
+        {
+          "tag": "h3",
+          "text": "AI Agent Identity for SaaS: What’s Different & What to Do About It"
+        },
+        {
+          "tag": "h3",
+          "text": "Developer blueprint for production-ready apps & AI agents"
+        },
+        {
+          "tag": "h3",
+          "text": "Verified Identity for AI agents"
+        },
+        {
+          "tag": "h3",
+          "text": "AI Agent Identity for SaaS: What’s Different & What to Do About It"
+        },
+        {
+          "tag": "h3",
+          "text": "Developer blueprint for production-ready apps & AI agents"
+        },
+        {
+          "tag": "h3",
+          "text": "Verified Identity for AI agents"
+        },
+        {
+          "tag": "h3",
+          "text": "AI Agent Identity for SaaS: What’s Different & What to Do About It"
+        },
+        {
+          "tag": "h3",
+          "text": "Developer blueprint for production-ready apps & AI agents"
+        },
+        {
+          "tag": "h3",
+          "text": "Verified Identity for AI agents"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently asked questions"
+        },
+        {
+          "tag": "h2",
+          "text": "Ready to scale your agentic B2B platform?"
+        },
+        {
+          "tag": "h2",
+          "text": "Privacy Preference Center"
+        },
+        {
+          "tag": "h3",
+          "text": "Manage Consent Preferences"
+        },
+        {
+          "tag": "h3",
+          "text": "Cookie List"
+        }
+      ],
+      "counts": {
+        "links": 218,
+        "images": 84,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 32
+      },
+      "linkCount": 218,
+      "screenshot": "screenshots/auth0.com-ai-identity-b2b-9296f1c4.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://auth0.com/api/auth/login?redirectTo=dashboard",
+      "from": "https://auth0.com",
+      "depth": 1,
+      "status": 200,
+      "title": "Log in | Auth0 Website",
+      "lang": "",
+      "metaDescription": "",
+      "h1": [
+        "Welcome"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Welcome"
+        }
+      ],
+      "counts": {
+        "links": 1,
+        "images": 1,
+        "canvas": 0,
+        "forms": 5,
+        "buttons": 6
+      },
+      "linkCount": 1,
+      "screenshot": "screenshots/auth0.com-api-auth-login-5fdd50a2.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://auth0.com/ai/docs/intro/overview",
+      "from": "https://auth0.com",
+      "depth": 1,
+      "status": 200,
+      "title": "Concepts - Auth0 Docs",
+      "lang": "en",
+      "metaDescription": "Learn the core concepts behind securing AI agents with Auth0, including user authentication, delegated authorization, asynchronous authorization, and authorization for RAG.",
+      "h1": [
+        "Concepts"
+      ],
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Documentation Index"
+        },
+        {
+          "tag": "h3",
+          "text": "Get Started"
+        },
+        {
+          "tag": "h3",
+          "text": "Resources"
+        },
+        {
+          "tag": "h1",
+          "text": "Concepts"
+        },
+        {
+          "tag": "h3",
+          "text": "Delegated Authorization"
+        },
+        {
+          "tag": "h2",
+          "text": "Privacy Preference Center"
+        },
+        {
+          "tag": "h3",
+          "text": "Manage Consent Preferences"
+        },
+        {
+          "tag": "h3",
+          "text": "Cookie List"
+        }
+      ],
+      "counts": {
+        "links": 65,
+        "images": 40,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 43
+      },
+      "linkCount": 65,
+      "screenshot": "screenshots/auth0.com-ai-docs-intro-overview-95305ac0.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://auth0.com/docs/api",
+      "from": "https://auth0.com",
+      "depth": 1,
+      "status": 200,
+      "title": "Auth0 APIs - Auth0 Docs",
+      "lang": "en",
+      "metaDescription": "Auth0 exposes the following APIs for developers to consume in their applications.",
+      "h1": [
+        "Auth0 APIs"
+      ],
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Documentation Index"
+        },
+        {
+          "tag": "h3",
+          "text": ""
+        },
+        {
+          "tag": "h1",
+          "text": "Auth0 APIs"
+        },
+        {
+          "tag": "h2",
+          "text": "Authentication API"
+        },
+        {
+          "tag": "h2",
+          "text": "Management API"
+        },
+        {
+          "tag": "h2",
+          "text": "My Account API"
+        },
+        {
+          "tag": "h2",
+          "text": "My Organization API"
+        },
+        {
+          "tag": "h2",
+          "text": "​Pagination"
+        },
+        {
+          "tag": "h2",
+          "text": "Privacy Preference Center"
+        },
+        {
+          "tag": "h3",
+          "text": "Manage Consent Preferences"
+        },
+        {
+          "tag": "h3",
+          "text": "Cookie List"
+        }
+      ],
+      "counts": {
+        "links": 59,
+        "images": 40,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 38
+      },
+      "linkCount": 59,
+      "screenshot": "screenshots/auth0.com-docs-api-9d44244e.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://auth0.com/docs/libraries",
+      "from": "https://auth0.com",
+      "depth": 1,
+      "status": 200,
+      "title": "SDK Libraries - Auth0 Docs",
+      "lang": "en",
+      "metaDescription": "Browse the available Auth0 SDKs and libraries to integrate Auth0 in your application.",
+      "h1": [
+        "SDK Libraries"
+      ],
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Documentation Index"
+        },
+        {
+          "tag": "h3",
+          "text": ""
+        },
+        {
+          "tag": "h3",
+          "text": "auth0-acul-js"
+        },
+        {
+          "tag": "h3",
+          "text": "auth0-acul-react"
+        },
+        {
+          "tag": "h3",
+          "text": "auth0-android"
+        },
+        {
+          "tag": "h3",
+          "text": "auth0-php"
+        },
+        {
+          "tag": "h2",
+          "text": "On this page"
+        },
+        {
+          "tag": "h1",
+          "text": "SDK Libraries"
+        },
+        {
+          "tag": "h2",
+          "text": "​Single-Page Application (SPA) SDK Libraries"
+        },
+        {
+          "tag": "h2",
+          "text": "​Regular Web Application SDK Libraries"
+        },
+        {
+          "tag": "h2",
+          "text": "​Backend Service and API SDK Libraries"
+        },
+        {
+          "tag": "h2",
+          "text": "​Native/Mobile App"
+        },
+        {
+          "tag": "h2",
+          "text": "​Advanced Customization for Universal Login (ACUL)"
+        },
+        {
+          "tag": "h2",
+          "text": "​Management API SDK Libraries"
+        },
+        {
+          "tag": "h2",
+          "text": "​Lock SDK Libraries"
+        },
+        {
+          "tag": "h2",
+          "text": "Privacy Preference Center"
+        },
+        {
+          "tag": "h3",
+          "text": "Manage Consent Preferences"
+        },
+        {
+          "tag": "h3",
+          "text": "Cookie List"
+        }
+      ],
+      "counts": {
+        "links": 215,
+        "images": 148,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 40
+      },
+      "linkCount": 215,
+      "screenshot": "screenshots/auth0.com-docs-libraries-30165b92.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://auth0.com/docs/events",
+      "from": "https://auth0.com",
+      "depth": 1,
+      "status": 200,
+      "title": "Events Catalog Overview - Auth0 Docs",
+      "lang": "en",
+      "metaDescription": "Events provide an API-based method of synchronizing, correlating, or orchestrating changes that occur within Auth0 or third-party identity providers to external apps or third-party services.",
+      "h1": [
+        "Events Catalog Overview"
+      ],
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Documentation Index"
+        },
+        {
+          "tag": "h3",
+          "text": "Connection"
+        },
+        {
+          "tag": "h3",
+          "text": "Group"
+        },
+        {
+          "tag": "h3",
+          "text": "Organization"
+        },
+        {
+          "tag": "h3",
+          "text": "User"
+        },
+        {
+          "tag": "h2",
+          "text": "On this page"
+        },
+        {
+          "tag": "h1",
+          "text": "Events Catalog Overview"
+        },
+        {
+          "tag": "h2",
+          "text": "​Event object schema"
+        },
+        {
+          "tag": "h2",
+          "text": "​Resources"
+        },
+        {
+          "tag": "h2",
+          "text": "Privacy Preference Center"
+        },
+        {
+          "tag": "h3",
+          "text": "Manage Consent Preferences"
+        },
+        {
+          "tag": "h3",
+          "text": "Cookie List"
+        }
+      ],
+      "counts": {
+        "links": 76,
+        "images": 40,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 39
+      },
+      "linkCount": 76,
+      "screenshot": "screenshots/auth0.com-docs-events-8369d72f.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://auth0.com/changelog",
+      "from": "https://auth0.com",
+      "depth": 1,
+      "status": 200,
+      "title": "Auth0 Changelog",
+      "lang": "en",
+      "metaDescription": "Advanced identity management can be very hard. Very often, unnecessarily hard. At Auth0 we want to change that, by simplifying as much as possible.",
+      "h1": [
+        "Changelog"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Changelog"
+        },
+        {
+          "tag": "h2",
+          "text": "Upcoming changes to the length of refresh tokens"
+        },
+        {
+          "tag": "h2",
+          "text": "What is changing?"
+        },
+        {
+          "tag": "h2",
+          "text": "Why is this changing?"
+        },
+        {
+          "tag": "h2",
+          "text": "Who is impacted?"
+        },
+        {
+          "tag": "h2",
+          "text": "Recommended Actions"
+        },
+        {
+          "tag": "h2",
+          "text": "Timeline"
+        },
+        {
+          "tag": "h2",
+          "text": "Questions?"
+        },
+        {
+          "tag": "h2",
+          "text": "Actions - Modules - GA"
+        },
+        {
+          "tag": "h3",
+          "text": "Key Highlights"
+        },
+        {
+          "tag": "h3",
+          "text": "Learn More"
+        },
+        {
+          "tag": "h2",
+          "text": "My Organization API and Embeddable UI Components - Member Management in Early Access!"
+        },
+        {
+          "tag": "h2",
+          "text": "Custom User ID Assignment with Actions — Early Access"
+        },
+        {
+          "tag": "h2",
+          "text": "Enterprise Connection Events — Early Access"
+        },
+        {
+          "tag": "h2",
+          "text": "B2B Connect - Enterprise in Early Access!"
+        },
+        {
+          "tag": "h2",
+          "text": "New Deny All Rule for Tenant ACL"
+        },
+        {
+          "tag": "h2",
+          "text": "My Organization API and Embeddable UI Components - XAA and third-party app access configuration in Early Acces"
+        },
+        {
+          "tag": "h2",
+          "text": "Dashboard Navigation & IA Refresh is now in Early Access"
+        },
+        {
+          "tag": "h2",
+          "text": "Advanced MFA Configurations are now Generally Available"
+        },
+        {
+          "tag": "h3",
+          "text": "With Advanced MFA Configurations you can:"
+        },
+        {
+          "tag": "h3",
+          "text": "Learn more"
+        },
+        {
+          "tag": "h2",
+          "text": "Cross-App Access Requesting App now in Early Access"
+        },
+        {
+          "tag": "h2",
+          "text": "Custom Token Exchange is now Generally Available"
+        },
+        {
+          "tag": "h2",
+          "text": "Custom Rate Limits available in Early Access"
+        },
+        {
+          "tag": "h2",
+          "text": "Flexible Password Policy is now generally available"
+        },
+        {
+          "tag": "h2",
+          "text": "Custom Prompts now capture the same fields on Social and Enterprise connections"
+        },
+        {
+          "tag": "h2",
+          "text": "Custom Token Exchange - Session Delegation is now available in Open Early Access"
+        },
+        {
+          "tag": "h2",
+          "text": "Google Workspace Directory Sync for Groups - Now in General Availability!"
+        },
+        {
+          "tag": "h2",
+          "text": "Organizations Search Expands with Advanced Filtering"
+        },
+        {
+          "tag": "h2",
+          "text": "Global Search in Cmd+K is now in Beta"
+        },
+        {
+          "tag": "h2",
+          "text": "Token Vault Privileged Worker is now Early Access!"
+        },
+        {
+          "tag": "h2",
+          "text": "Enterprise Connect - Beta"
+        },
+        {
+          "tag": "h2",
+          "text": "Curated Blocklists in Tenant Access Control Lists is Now GA!"
+        },
+        {
+          "tag": "h3",
+          "text": "Overview"
+        },
+        {
+          "tag": "h3",
+          "text": "Available Categories"
+        },
+        {
+          "tag": "h3",
+          "text": "API Request Structure"
+        },
+        {
+          "tag": "h3",
+          "text": "Configuration & Exception Handling"
+        },
+        {
+          "tag": "h2",
+          "text": "Agents as Principal now in Early Access!"
+        },
+        {
+          "tag": "h2",
+          "text": "Actions Reference Catalog Now Available in Auth0 Docs"
+        },
+        {
+          "tag": "h2",
+          "text": "Dashboard Search for Organization members now in Beta!"
+        }
+      ],
+      "counts": {
+        "links": 1571,
+        "images": 202,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 826
+      },
+      "linkCount": 1571,
+      "screenshot": "screenshots/auth0.com-changelog-6c030733.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://auth0.com/docs",
+      "from": "https://auth0.com",
+      "depth": 1,
+      "status": 200,
+      "title": "Auth0 Docs - Auth0 Docs",
+      "lang": "en",
+      "metaDescription": "Browse the latest sample code, articles, tutorials, and API reference.",
+      "h1": [
+        "Auth0 Docs"
+      ],
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Documentation Index"
+        },
+        {
+          "tag": "h3",
+          "text": "Quickstarts"
+        },
+        {
+          "tag": "h3",
+          "text": "Auth0 Overview"
+        },
+        {
+          "tag": "h3",
+          "text": "Configure Auth0"
+        },
+        {
+          "tag": "h3",
+          "text": "Applications"
+        },
+        {
+          "tag": "h1",
+          "text": "Auth0 Docs"
+        },
+        {
+          "tag": "h2",
+          "text": "Documentation"
+        },
+        {
+          "tag": "h2",
+          "text": "API References"
+        },
+        {
+          "tag": "h2",
+          "text": "SDKs"
+        },
+        {
+          "tag": "h2",
+          "text": "​Get started with authentication"
+        },
+        {
+          "tag": "h2",
+          "text": "​Browse by product"
+        },
+        {
+          "tag": "h2",
+          "text": "Authentication"
+        },
+        {
+          "tag": "h2",
+          "text": "Fine-Grained Authorization"
+        },
+        {
+          "tag": "h2",
+          "text": "Auth0 for AI Agents"
+        },
+        {
+          "tag": "h2",
+          "text": "​Resources & Support"
+        },
+        {
+          "tag": "h2",
+          "text": "Basic concepts"
+        },
+        {
+          "tag": "h2",
+          "text": "Cookbooks"
+        },
+        {
+          "tag": "h2",
+          "text": "Community"
+        },
+        {
+          "tag": "h2",
+          "text": "Support"
+        },
+        {
+          "tag": "h2",
+          "text": "Privacy Preference Center"
+        },
+        {
+          "tag": "h3",
+          "text": "Manage Consent Preferences"
+        },
+        {
+          "tag": "h3",
+          "text": "Cookie List"
+        }
+      ],
+      "counts": {
+        "links": 69,
+        "images": 43,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 53
+      },
+      "linkCount": 69,
+      "screenshot": "screenshots/auth0.com-docs-76956f47.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://auth0.com/docs/quickstart/spa/react/interactive",
+      "from": "https://auth0.com",
+      "depth": 1,
+      "status": 200,
+      "title": "Add Login to Your React Application - Auth0 Docs",
+      "lang": "en",
+      "metaDescription": "This guide demonstrates how to integrate Auth0, add authentication, and display user profile information in a Single-Page Application (SPA) that uses React, using the Auth0 React SDK.",
+      "h1": [
+        "Add Login to Your React Application"
+      ],
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Documentation Index"
+        },
+        {
+          "tag": "h3",
+          "text": "Quickstarts"
+        },
+        {
+          "tag": "h3",
+          "text": "Auth0 Overview"
+        },
+        {
+          "tag": "h3",
+          "text": "Configure Auth0"
+        },
+        {
+          "tag": "h3",
+          "text": "Applications"
+        },
+        {
+          "tag": "h1",
+          "text": "Add Login to Your React Application"
+        },
+        {
+          "tag": "h2",
+          "text": "​Get Started"
+        },
+        {
+          "tag": "h2",
+          "text": "​Advanced Usage"
+        },
+        {
+          "tag": "h2",
+          "text": "Privacy Preference Center"
+        },
+        {
+          "tag": "h3",
+          "text": "Manage Consent Preferences"
+        },
+        {
+          "tag": "h3",
+          "text": "Cookie List"
+        }
+      ],
+      "counts": {
+        "links": 71,
+        "images": 40,
+        "canvas": 0,
+        "forms": 0,
+        "buttons": 127
+      },
+      "linkCount": 71,
+      "screenshot": "screenshots/auth0.com-docs-quickstart-spa-react-interactive-f3b28867.png",
+      "consoleErrors": []
+    }
+  ],
+  "skipped": []
+}

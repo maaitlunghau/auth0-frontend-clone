@@ -1,0 +1,19 @@
+@font-face { font-family: Inter; font-style: normal; font-weight: 400; font-display: swap; src: local("Inter-Regular"), url("cdn.auth0.com/Inter-Regular-1e1a98391b.woff2") format("woff2"); }
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 500; font-display: swap; src: local("Inter-Medium"), url("cdn.auth0.com/Inter-Medium-0761a51bd0.woff2") format("woff2"); }
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 700; font-display: swap; src: local("Inter-Bold"), url("cdn.auth0.com/Inter-Bold-8c7aae79a5.woff2") format("woff2"); }
+
+@font-face { font-family: SpaceGrotesk; font-style: normal; font-weight: 500; font-display: swap; font-feature-settings: "zero", "ss02" 0, "ss03", "ss04"; src: local("SpaceGrotesk-Medium"), url("cdn.auth0.com/SpaceGrotesk-Medium-6a97866667.woff2") format("woff2"); }
+
+@font-face { font-family: SpaceGrotesk; font-style: normal; font-weight: 600; font-display: swap; font-feature-settings: "zero", "ss02" 0, "ss03", "ss04"; src: local("SpaceGrotesk-SemiBold"), url("cdn.auth0.com/SpaceGrotesk-SemiBold-c0ae64cd21.woff2") format("woff2"); }
+
+@font-face { font-family: RobotoMono; font-style: normal; font-weight: 400; font-display: swap; src: local("RobotoMono-Regular"), url("cdn.auth0.com/roboto-mono-latin-400-normal-bb30df8390.woff2") format("woff2"); }
+
+@font-face { font-family: Aeonik; font-style: normal; font-weight: 400; font-display: swap; src: local("Aeonik-Regular"), url("cdn.auth0.com/Aeonik-Regular-d40396f167.woff2") format("woff2"); }
+
+@font-face { font-family: Aeonik; font-style: normal; font-weight: 500; font-display: swap; src: local("Aeonik-Medium"), url("cdn.auth0.com/Aeonik-Medium-7ae068985b.woff2") format("woff2"); }
+
+@font-face { font-family: "Aeonik Mono"; font-style: normal; font-weight: 400; font-display: swap; src: local("AeonikMono-Regular"), url("cdn.auth0.com/AeonikMono-Regular-aa12f44a0c.woff2") format("woff2"); }
+
+@font-face { font-family: "Aeonik Mono"; font-style: normal; font-weight: 500; font-display: swap; src: local("AeonikMono-Medium"), url("cdn.auth0.com/AeonikMono-Medium-8494a5cabd.ttf") format("truetype"); }

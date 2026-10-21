@@ -1,0 +1,1158 @@
+{
+ "out": [
+  {
+   "label": "html",
+   "tag": "html",
+   "text": "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().",
+   "box": {
+    "w": 1440,
+    "h": 10150.8,
+    "x": 0,
+    "top": 0
+   },
+   "type": {
+    "fontFamily": "sans-serif",
+    "fontSize": "10px",
+    "fontWeight": "400",
+    "lineHeight": "11.5px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(0, 0, 0)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(0, 0, 0)",
+    "borderRadius": "0px",
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "normal",
+    "display": "block",
+    "position": "static",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "body",
+   "tag": "body",
+   "text": "Oct 21 | Beyond Oktane: Accelerating growth from sign-up to enterprise",
+   "box": {
+    "w": 1440,
+    "h": 10150.8,
+    "x": 0,
+    "top": 0
+   },
+   "type": {
+    "fontFamily": "Aeonik, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(255, 254, 250)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgb(32, 0, 58)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(255, 254, 250)",
+    "borderRadius": "0px",
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "normal",
+    "display": "block",
+    "position": "static",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "header",
+   "tag": "header",
+   "text": "Oct 21 | Beyond Oktane: Accelerating growth from sign-up to enterprise",
+   "box": {
+    "w": 1440,
+    "h": 106,
+    "x": 0,
+    "top": 0
+   },
+   "type": {
+    "fontFamily": "Aeonik, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(255, 254, 250)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(255, 254, 250)",
+    "borderRadius": "0px",
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "normal",
+    "display": "block",
+    "position": "fixed",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "none",
+    "zIndex": "1000"
+   }
+  },
+  {
+   "label": "header>nav",
+   "tag": "nav",
+   "text": "BuildDocumentationAI Identity DocsAPIsSDKsEvents CatalogChangelogCode ",
+   "box": {
+    "w": 0,
+    "h": 0,
+    "x": 0,
+    "top": 0
+   },
+   "type": {
+    "fontFamily": "Aeonik, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(255, 254, 250)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgb(18, 0, 33)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(255, 254, 250)",
+    "borderRadius": "0px",
+    "padding": "16px 64px 16px 64px",
+    "margin": "auto auto auto auto",
+    "gap": "normal",
+    "display": "none",
+    "position": "relative",
+    "boxShadow": "rgba(247, 240, 255, 0.15) 0px -1px 0px 0px inset",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "1536px",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "h1",
+   "tag": "h1",
+   "text": "Convert, protect, & personalize every journey",
+   "box": {
+    "w": 755.5,
+    "h": 144,
+    "x": 342,
+    "top": 240
+   },
+   "type": {
+    "fontFamily": "Aeonik, sans-serif",
+    "fontSize": "64px",
+    "fontWeight": "400",
+    "lineHeight": "72px",
+    "letterSpacing": "-1px",
+    "textTransform": "none",
+    "color": "rgb(255, 255, 255)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(255, 255, 255)",
+    "borderRadius": "0px",
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "normal",
+    "display": "block",
+    "position": "static",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "1013.3px",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "h1 parent",
+   "tag": "div",
+   "text": "Auth0 platform announcementsConvert, protect, & personalize every jour",
+   "box": {
+    "w": 800,
+    "h": 404,
+    "x": 320,
+    "top": 170
+   },
+   "type": {
+    "fontFamily": "Aeonik, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(255, 254, 250)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(255, 254, 250)",
+    "borderRadius": "0px",
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 320px 0px 320px",
+    "gap": "32px",
+    "display": "flex",
+    "position": "relative",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "800px",
+    "zIndex": "3"
+   }
+  },
+  {
+   "label": "h2 lifecycle",
+   "tag": "h2",
+   "text": "Identity for the entire customer lifecycle",
+   "box": {
+    "w": 989.5,
+    "h": 64,
+    "x": 225,
+    "top": 915
+   },
+   "type": {
+    "fontFamily": "Aeonik, sans-serif",
+    "fontSize": "56px",
+    "fontWeight": "400",
+    "lineHeight": "64px",
+    "letterSpacing": "-1px",
+    "textTransform": "none",
+    "color": "rgb(255, 255, 255)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(255, 255, 255)",
+    "borderRadius": "0px",
+    "padding": "0px 24px 0px 24px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "normal",
+    "display": "block",
+    "position": "static",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "h2 industries",
+   "tag": "h2",
+   "text": "Built for industries that can’t afford to slow down",
+   "box": {
+    "w": 983.5,
+    "h": 56,
+    "x": 228,
+    "top": 5258
+   },
+   "type": {
+    "fontFamily": "Aeonik, sans-serif",
+    "fontSize": "48px",
+    "fontWeight": "400",
+    "lineHeight": "56px",
+    "letterSpacing": "-1px",
+    "textTransform": "none",
+    "color": "rgb(255, 255, 255)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(255, 255, 255)",
+    "borderRadius": "0px",
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "normal",
+    "display": "block",
+    "position": "static",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "h2 integrate",
+   "tag": "h2",
+   "text": "Integrate auth into any stack in minutes",
+   "box": {
+    "w": 799.7,
+    "h": 56,
+    "x": 320,
+    "top": 6216
+   },
+   "type": {
+    "fontFamily": "Aeonik, sans-serif",
+    "fontSize": "48px",
+    "fontWeight": "400",
+    "lineHeight": "56px",
+    "letterSpacing": "-1px",
+    "textTransform": "none",
+    "color": "rgb(255, 255, 255)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(255, 255, 255)",
+    "borderRadius": "0px",
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px 16px 0px",
+    "gap": "normal",
+    "display": "block",
+    "position": "static",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "h2 company",
+   "tag": "h2",
+   "text": "You’re in great company",
+   "box": {
+    "w": 1248,
+    "h": 56,
+    "x": 96,
+    "top": 6941
+   },
+   "type": {
+    "fontFamily": "Aeonik, sans-serif",
+    "fontSize": "48px",
+    "fontWeight": "400",
+    "lineHeight": "56px",
+    "letterSpacing": "-1px",
+    "textTransform": "none",
+    "color": "rgb(255, 255, 255)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(255, 255, 255)",
+    "borderRadius": "0px",
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px 48px 0px",
+    "gap": "normal",
+    "display": "block",
+    "position": "static",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "h2 resources",
+   "tag": "h2",
+   "text": "Read. Watch. Code. More.",
+   "box": {
+    "w": 1440,
+    "h": 56,
+    "x": 0,
+    "top": 8114
+   },
+   "type": {
+    "fontFamily": "Aeonik, sans-serif",
+    "fontSize": "48px",
+    "fontWeight": "400",
+    "lineHeight": "56px",
+    "letterSpacing": "-1px",
+    "textTransform": "none",
+    "color": "rgb(255, 255, 255)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(255, 255, 255)",
+    "borderRadius": "0px",
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "normal",
+    "display": "block",
+    "position": "static",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "h2 cta",
+   "tag": "h2",
+   "text": "Get ready to ship at the pace of AI",
+   "box": {
+    "w": 1248,
+    "h": 144,
+    "x": 96,
+    "top": 9138
+   },
+   "type": {
+    "fontFamily": "Aeonik, sans-serif",
+    "fontSize": "64px",
+    "fontWeight": "400",
+    "lineHeight": "72px",
+    "letterSpacing": "-1px",
+    "textTransform": "none",
+    "color": "rgb(255, 255, 255)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(255, 255, 255)",
+    "borderRadius": "0px",
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "normal",
+    "display": "block",
+    "position": "static",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "h3 tabber title",
+   "tag": "h3",
+   "text": "Built for what you're building",
+   "box": {
+    "w": 311,
+    "h": 96,
+    "x": 96,
+    "top": 2128
+   },
+   "type": {
+    "fontFamily": "Aeonik, sans-serif",
+    "fontSize": "40px",
+    "fontWeight": "400",
+    "lineHeight": "48px",
+    "letterSpacing": "-1px",
+    "textTransform": "none",
+    "color": "rgb(255, 255, 255)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(255, 255, 255)",
+    "borderRadius": "0px",
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "normal",
+    "display": "block",
+    "position": "static",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "h3 card title",
+   "tag": "h3",
+   "text": "Ship AI agents faster, without losing control",
+   "box": {
+    "w": 371.5,
+    "h": 88,
+    "x": 504,
+    "top": 2101
+   },
+   "type": {
+    "fontFamily": "Aeonik, sans-serif",
+    "fontSize": "32px",
+    "fontWeight": "400",
+    "lineHeight": "44px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(255, 255, 255)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(255, 255, 255)",
+    "borderRadius": "0px",
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "normal",
+    "display": "block",
+    "position": "static",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "hero sub",
+   "tag": "p",
+   "text": "Auth0 makes every login effortless, so fewer customers walk away. It h",
+   "box": {
+    "w": 621,
+    "h": 84,
+    "x": 410,
+    "top": 416
+   },
+   "type": {
+    "fontFamily": "Aeonik, sans-serif",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "0.1px",
+    "textTransform": "none",
+    "color": "rgb(255, 255, 255)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(255, 255, 255)",
+    "borderRadius": "0px",
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "normal",
+    "display": "block",
+    "position": "static",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "cta primary",
+   "tag": "a",
+   "text": "See it in action",
+   "box": {
+    "w": 172.5,
+    "h": 50,
+    "x": 532,
+    "top": 524
+   },
+   "type": {
+    "fontFamily": "Aeonik",
+    "fontSize": "18px",
+    "fontWeight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "0.12px",
+    "textTransform": "none",
+    "color": "rgb(0, 0, 0)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "backgroundImage": "none",
+    "border": "1px solid rgba(0, 0, 0, 0)",
+    "borderRadius": "4px",
+    "padding": "10px 24px 10px 24px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "8px",
+    "display": "flex",
+    "position": "relative",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "hidden",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "cta secondary",
+   "tag": "a",
+   "text": "Talk to an expert",
+   "box": {
+    "w": 188.3,
+    "h": 50,
+    "x": 720,
+    "top": 524
+   },
+   "type": {
+    "fontFamily": "Aeonik",
+    "fontSize": "18px",
+    "fontWeight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "0.12px",
+    "textTransform": "none",
+    "color": "rgb(255, 255, 255)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "linear-gradient(181deg, rgba(18, 0, 33, 0.3) -97.35%, rgba(18, 0, 33, 0.1) 1.05%, rgba(18, 0, 33, 0.1) 99.45%)",
+    "border": "1px solid rgba(255, 255, 255, 0.95)",
+    "borderRadius": "4px",
+    "padding": "10px 24px 10px 24px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "8px",
+    "display": "flex",
+    "position": "relative",
+    "boxShadow": "none",
+    "backdropFilter": "blur(25px)",
+    "opacity": "1",
+    "overflow": "hidden",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "nav signup",
+   "tag": "a",
+   "text": "Sign up",
+   "box": {
+    "w": 0,
+    "h": 0,
+    "x": 0,
+    "top": 0
+   },
+   "type": {
+    "fontFamily": "Aeonik",
+    "fontSize": "18px",
+    "fontWeight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "0.12px",
+    "textTransform": "none",
+    "color": "rgb(0, 0, 0)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "backgroundImage": "none",
+    "border": "1px solid rgba(0, 0, 0, 0)",
+    "borderRadius": "4px",
+    "padding": "10px 24px 10px 24px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "8px",
+    "display": "flex",
+    "position": "relative",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "hidden",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "nav connect",
+   "tag": "a",
+   "text": "Let's connect",
+   "box": {
+    "w": 0,
+    "h": 0,
+    "x": 0,
+    "top": 0
+   },
+   "type": {
+    "fontFamily": "Aeonik",
+    "fontSize": "18px",
+    "fontWeight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "0.12px",
+    "textTransform": "none",
+    "color": "rgb(255, 255, 255)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "linear-gradient(181deg, rgba(18, 0, 33, 0.3) -97.35%, rgba(18, 0, 33, 0.1) 1.05%, rgba(18, 0, 33, 0.1) 99.45%)",
+    "border": "1px solid rgba(255, 255, 255, 0.95)",
+    "borderRadius": "4px",
+    "padding": "10px 24px 10px 24px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "8px",
+    "display": "flex",
+    "position": "relative",
+    "boxShadow": "none",
+    "backdropFilter": "blur(25px)",
+    "opacity": "1",
+    "overflow": "hidden",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "pill active",
+   "tag": "button",
+   "text": "Retail",
+   "box": {
+    "w": 96.3,
+    "h": 48,
+    "x": 321,
+    "top": 5428
+   },
+   "type": {
+    "fontFamily": "Aeonik",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "22px",
+    "letterSpacing": "0.012px",
+    "textTransform": "none",
+    "color": "rgb(25, 25, 25)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgb(255, 254, 250)",
+    "backgroundImage": "none",
+    "border": "1px solid rgb(128, 128, 128)",
+    "borderRadius": "4px",
+    "padding": "12px 28px 12px 28px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "normal",
+    "display": "block",
+    "position": "static",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "pill idle",
+   "tag": "button",
+   "text": "Financial Services",
+   "box": {
+    "w": 184.8,
+    "h": 48,
+    "x": 433,
+    "top": 5428
+   },
+   "type": {
+    "fontFamily": "Aeonik",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "22px",
+    "letterSpacing": "0.012px",
+    "textTransform": "none",
+    "color": "rgb(197, 197, 197)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "1px solid rgba(255, 255, 255, 0.6)",
+    "borderRadius": "4px",
+    "padding": "12px 28px 12px 28px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "normal",
+    "display": "block",
+    "position": "static",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "toggle b2c",
+   "tag": "button",
+   "text": "B2C Apps & Platforms",
+   "box": {
+    "w": 311,
+    "h": 76,
+    "x": 96,
+    "top": 2374
+   },
+   "type": {
+    "fontFamily": "Aeonik, sans-serif",
+    "fontSize": "18px",
+    "fontWeight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(255, 255, 255)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(255, 255, 255)",
+    "borderRadius": "0px",
+    "padding": "24px 0px 24px 0px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "normal",
+    "display": "flex",
+    "position": "relative",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "clip",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "stat value wrap",
+   "tag": "div",
+   "text": "3 billion+",
+   "box": {
+    "w": 350.7,
+    "h": 56,
+    "x": 129,
+    "top": 1752
+   },
+   "type": {
+    "fontFamily": "Aeonik, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(255, 254, 250)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(255, 254, 250)",
+    "borderRadius": "0px",
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "normal",
+    "display": "block",
+    "position": "static",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "hidden",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "stat eyebrow",
+   "tag": "p",
+   "text": "SECURITY BUILT-IN",
+   "box": {
+    "w": 350.7,
+    "h": 20,
+    "x": 129,
+    "top": 1724
+   },
+   "type": {
+    "fontFamily": "\"Aeonik Mono\", monospace",
+    "fontSize": "14px",
+    "fontWeight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "1.5px",
+    "textTransform": "uppercase",
+    "color": "rgb(235, 211, 255)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(235, 211, 255)",
+    "borderRadius": "0px",
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "normal",
+    "display": "block",
+    "position": "static",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "featured label",
+   "tag": "p",
+   "text": "Featured capabilities",
+   "box": {
+    "w": 213.8,
+    "h": 20,
+    "x": 504,
+    "top": 2377
+   },
+   "type": {
+    "fontFamily": "\"Aeonik Mono\", monospace",
+    "fontSize": "14px",
+    "fontWeight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "1.5px",
+    "textTransform": "uppercase",
+    "color": "rgb(235, 211, 255)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(235, 211, 255)",
+    "borderRadius": "0px",
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "normal",
+    "display": "block",
+    "position": "static",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "footer",
+   "tag": "footer",
+   "text": "STARTING WITH AUTH0Auth0 CIAMIntro to IAMAuth0 platformAuth0 featuresP",
+   "box": {
+    "w": 1440,
+    "h": 715,
+    "x": 0,
+    "top": 9436
+   },
+   "type": {
+    "fontFamily": "Aeonik, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(255, 254, 250)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgb(18, 0, 33)",
+    "backgroundImage": "none",
+    "border": "1px solid rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "padding": "64px 96px 64px 96px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "normal",
+    "display": "block",
+    "position": "static",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "footer col title",
+   "tag": "p",
+   "text": "STARTING WITH AUTH0",
+   "box": {
+    "w": 288,
+    "h": 20,
+    "x": 96,
+    "top": 9501
+   },
+   "type": {
+    "fontFamily": "Aeonik, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "2px",
+    "textTransform": "uppercase",
+    "color": "rgb(235, 211, 255)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(235, 211, 255)",
+    "borderRadius": "0px",
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "normal",
+    "display": "block",
+    "position": "static",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "footer link",
+   "tag": "a",
+   "text": "Auth0 CIAM",
+   "box": {
+    "w": 75.6,
+    "h": 20,
+    "x": 96,
+    "top": 9537
+   },
+   "type": {
+    "fontFamily": "Aeonik, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(255, 255, 255)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(255, 255, 255)",
+    "borderRadius": "0px",
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "8px",
+    "display": "flex",
+    "position": "static",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "main",
+   "tag": "main",
+   "text": "Auth0 platform announcementsConvert, protect, & personalize every jour",
+   "box": {
+    "w": 1440,
+    "h": 9435.8,
+    "x": 0,
+    "top": 0
+   },
+   "type": {
+    "fontFamily": "Aeonik, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(255, 254, 250)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(255, 254, 250)",
+    "borderRadius": "0px",
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "normal",
+    "display": "block",
+    "position": "static",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "visible",
+    "maxWidth": "none",
+    "zIndex": "auto"
+   }
+  },
+  {
+   "label": "hero video",
+   "tag": "video",
+   "text": "",
+   "box": {
+    "w": 1440,
+    "h": 821,
+    "x": 0,
+    "top": 0
+   },
+   "type": {
+    "fontFamily": "Aeonik, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(255, 254, 250)"
+   },
+   "boxStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px none rgb(255, 254, 250)",
+    "borderRadius": "0px",
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px 0px 0px",
+    "gap": "normal",
+    "display": "block",
+    "position": "absolute",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "opacity": "1",
+    "overflow": "clip",
+    "maxWidth": "none",
+    "zIndex": "-1"
+   }
+  }
+ ],
+ "containerWidths": [
+  {
+   "width": 1440,
+   "count": 32
+  },
+  {
+   "width": 1248,
+   "count": 23
+  },
+  {
+   "width": 905,
+   "count": 9
+  },
+  {
+   "width": 720,
+   "count": 4
+  },
+  {
+   "width": 1247,
+   "count": 2
+  },
+  {
+   "width": 753,
+   "count": 1
+  },
+  {
+   "width": 800,
+   "count": 1
+  },
+  {
+   "width": 1152,
+   "count": 1
+  }
+ ],
+ "sectionRhythm": [
+  {
+   "tag": "div",
+   "top": 0,
+   "h": 9436,
+   "padding": "0px 0px",
+   "bg": "rgba(0, 0, 0, 0)",
+   "text": "Auth0 platform announcementsConvert, protect, & personalize "
+  }
+ ]
+}
